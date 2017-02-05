@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75020F751E47864E0096B5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F741E47864E0096B5A4 /* AppDelegate.swift */; };
+		75020F771E47864E0096B5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F761E47864E0096B5A4 /* ViewController.swift */; };
+		75020F7A1E47864E0096B5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75020F781E47864E0096B5A4 /* Main.storyboard */; };
+		75020F7C1E47864E0096B5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75020F7B1E47864E0096B5A4 /* Assets.xcassets */; };
+		75020F7F1E47864E0096B5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75020F7D1E47864E0096B5A4 /* LaunchScreen.storyboard */; };
+		75020F8A1E47864E0096B5A4 /* TtroPopViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F891E47864E0096B5A4 /* TtroPopViewSampleTests.swift */; };
+		75020F951E47864E0096B5A4 /* TtroPopViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F941E47864E0096B5A4 /* TtroPopViewSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75020F861E47864E0096B5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75020F691E47864E0096B5A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75020F701E47864E0096B5A4;
+			remoteInfo = TtroPopViewSample;
+		};
+		75020F911E47864E0096B5A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75020F691E47864E0096B5A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75020F701E47864E0096B5A4;
+			remoteInfo = TtroPopViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75020F711E47864E0096B5A4 /* TtroPopViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TtroPopViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75020F741E47864E0096B5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75020F761E47864E0096B5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75020F791E47864E0096B5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75020F7B1E47864E0096B5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75020F7E1E47864E0096B5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75020F801E47864E0096B5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75020F851E47864E0096B5A4 /* TtroPopViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroPopViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75020F891E47864E0096B5A4 /* TtroPopViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroPopViewSampleTests.swift; sourceTree = "<group>"; };
+		75020F8B1E47864E0096B5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75020F901E47864E0096B5A4 /* TtroPopViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroPopViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75020F941E47864E0096B5A4 /* TtroPopViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroPopViewSampleUITests.swift; sourceTree = "<group>"; };
+		75020F961E47864E0096B5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75020F6E1E47864E0096B5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F821E47864E0096B5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F8D1E47864E0096B5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75020F681E47864E0096B5A4 = {
+			isa = PBXGroup;
+			children = (
+				75020F731E47864E0096B5A4 /* TtroPopViewSample */,
+				75020F881E47864E0096B5A4 /* TtroPopViewSampleTests */,
+				75020F931E47864E0096B5A4 /* TtroPopViewSampleUITests */,
+				75020F721E47864E0096B5A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75020F721E47864E0096B5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75020F711E47864E0096B5A4 /* TtroPopViewSample.app */,
+				75020F851E47864E0096B5A4 /* TtroPopViewSampleTests.xctest */,
+				75020F901E47864E0096B5A4 /* TtroPopViewSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75020F731E47864E0096B5A4 /* TtroPopViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				75020F741E47864E0096B5A4 /* AppDelegate.swift */,
+				75020F761E47864E0096B5A4 /* ViewController.swift */,
+				75020F781E47864E0096B5A4 /* Main.storyboard */,
+				75020F7B1E47864E0096B5A4 /* Assets.xcassets */,
+				75020F7D1E47864E0096B5A4 /* LaunchScreen.storyboard */,
+				75020F801E47864E0096B5A4 /* Info.plist */,
+			);
+			path = TtroPopViewSample;
+			sourceTree = "<group>";
+		};
+		75020F881E47864E0096B5A4 /* TtroPopViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				75020F891E47864E0096B5A4 /* TtroPopViewSampleTests.swift */,
+				75020F8B1E47864E0096B5A4 /* Info.plist */,
+			);
+			path = TtroPopViewSampleTests;
+			sourceTree = "<group>";
+		};
+		75020F931E47864E0096B5A4 /* TtroPopViewSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75020F941E47864E0096B5A4 /* TtroPopViewSampleUITests.swift */,
+				75020F961E47864E0096B5A4 /* Info.plist */,
+			);
+			path = TtroPopViewSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75020F701E47864E0096B5A4 /* TtroPopViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75020F991E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSample" */;
+			buildPhases = (
+				75020F6D1E47864E0096B5A4 /* Sources */,
+				75020F6E1E47864E0096B5A4 /* Frameworks */,
+				75020F6F1E47864E0096B5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TtroPopViewSample;
+			productName = TtroPopViewSample;
+			productReference = 75020F711E47864E0096B5A4 /* TtroPopViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75020F841E47864E0096B5A4 /* TtroPopViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75020F9C1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleTests" */;
+			buildPhases = (
+				75020F811E47864E0096B5A4 /* Sources */,
+				75020F821E47864E0096B5A4 /* Frameworks */,
+				75020F831E47864E0096B5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75020F871E47864E0096B5A4 /* PBXTargetDependency */,
+			);
+			name = TtroPopViewSampleTests;
+			productName = TtroPopViewSampleTests;
+			productReference = 75020F851E47864E0096B5A4 /* TtroPopViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75020F8F1E47864E0096B5A4 /* TtroPopViewSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75020F9F1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleUITests" */;
+			buildPhases = (
+				75020F8C1E47864E0096B5A4 /* Sources */,
+				75020F8D1E47864E0096B5A4 /* Frameworks */,
+				75020F8E1E47864E0096B5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75020F921E47864E0096B5A4 /* PBXTargetDependency */,
+			);
+			name = TtroPopViewSampleUITests;
+			productName = TtroPopViewSampleUITests;
+			productReference = 75020F901E47864E0096B5A4 /* TtroPopViewSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75020F691E47864E0096B5A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ParsPay;
+				TargetAttributes = {
+					75020F701E47864E0096B5A4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+					};
+					75020F841E47864E0096B5A4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75020F701E47864E0096B5A4;
+					};
+					75020F8F1E47864E0096B5A4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75020F701E47864E0096B5A4;
+					};
+				};
+			};
+			buildConfigurationList = 75020F6C1E47864E0096B5A4 /* Build configuration list for PBXProject "TtroPopViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75020F681E47864E0096B5A4;
+			productRefGroup = 75020F721E47864E0096B5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75020F701E47864E0096B5A4 /* TtroPopViewSample */,
+				75020F841E47864E0096B5A4 /* TtroPopViewSampleTests */,
+				75020F8F1E47864E0096B5A4 /* TtroPopViewSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75020F6F1E47864E0096B5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75020F7F1E47864E0096B5A4 /* LaunchScreen.storyboard in Resources */,
+				75020F7C1E47864E0096B5A4 /* Assets.xcassets in Resources */,
+				75020F7A1E47864E0096B5A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F831E47864E0096B5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F8E1E47864E0096B5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75020F6D1E47864E0096B5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75020F771E47864E0096B5A4 /* ViewController.swift in Sources */,
+				75020F751E47864E0096B5A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F811E47864E0096B5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75020F8A1E47864E0096B5A4 /* TtroPopViewSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75020F8C1E47864E0096B5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75020F951E47864E0096B5A4 /* TtroPopViewSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75020F871E47864E0096B5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75020F701E47864E0096B5A4 /* TtroPopViewSample */;
+			targetProxy = 75020F861E47864E0096B5A4 /* PBXContainerItemProxy */;
+		};
+		75020F921E47864E0096B5A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75020F701E47864E0096B5A4 /* TtroPopViewSample */;
+			targetProxy = 75020F911E47864E0096B5A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75020F781E47864E0096B5A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75020F791E47864E0096B5A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75020F7D1E47864E0096B5A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75020F7E1E47864E0096B5A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75020F971E47864E0096B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75020F981E47864E0096B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75020F9A1E47864E0096B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		75020F9B1E47864E0096B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		75020F9D1E47864E0096B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TtroPopViewSample.app/TtroPopViewSample";
+			};
+			name = Debug;
+		};
+		75020F9E1E47864E0096B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TtroPopViewSample.app/TtroPopViewSample";
+			};
+			name = Release;
+		};
+		75020FA01E47864E0096B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TtroPopViewSample;
+			};
+			name = Debug;
+		};
+		75020FA11E47864E0096B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopViewSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopViewSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TtroPopViewSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75020F6C1E47864E0096B5A4 /* Build configuration list for PBXProject "TtroPopViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75020F971E47864E0096B5A4 /* Debug */,
+				75020F981E47864E0096B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75020F991E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75020F9A1E47864E0096B5A4 /* Debug */,
+				75020F9B1E47864E0096B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75020F9C1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75020F9D1E47864E0096B5A4 /* Debug */,
+				75020F9E1E47864E0096B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75020F9F1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75020FA01E47864E0096B5A4 /* Debug */,
+				75020FA11E47864E0096B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75020F691E47864E0096B5A4 /* Project object */;
+}
