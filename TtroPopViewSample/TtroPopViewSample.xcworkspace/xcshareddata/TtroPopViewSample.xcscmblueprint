@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "738A88A6C705CB3D6BCF35F4A58600419E908C4B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8D2D75E1AA0E181F828F2ED5900FC3876DB45392" : 9223372036854775807,
+    "738A88A6C705CB3D6BCF35F4A58600419E908C4B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31979008-8718-4329-80D8-E09C5B28749A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8D2D75E1AA0E181F828F2ED5900FC3876DB45392" : "PayWandBasicElements\/",
+    "738A88A6C705CB3D6BCF35F4A58600419E908C4B" : "TtroPopView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TtroPopViewSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TtroPopViewSample\/TtroPopViewSample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/faraxnak\/TtroPopView",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "738A88A6C705CB3D6BCF35F4A58600419E908C4B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/faraxnak\/PayWandBasicElements",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8D2D75E1AA0E181F828F2ED5900FC3876DB45392"
+    }
+  ]
+}

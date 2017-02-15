@@ -1,0 +1,6 @@
+framework module Pods_TtroPopViewSampleTests {
+  umbrella header "Pods-TtroPopViewSampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

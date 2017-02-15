@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14FC9091268E87A15245923D /* Pods_TtroPopViewSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2A16A38C74CDEAD75BA8C7 /* Pods_TtroPopViewSampleTests.framework */; };
+		232207F063BC982C45DD45E6 /* Pods_TtroPopViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D5645BE4A0C6DCB0D01646 /* Pods_TtroPopViewSample.framework */; };
+		62EBB9F08F6F04F8B46508E6 /* Pods_TtroPopViewSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F1D71BE13A18AA874A5DBC /* Pods_TtroPopViewSampleUITests.framework */; };
 		75020F751E47864E0096B5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F741E47864E0096B5A4 /* AppDelegate.swift */; };
 		75020F771E47864E0096B5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F761E47864E0096B5A4 /* ViewController.swift */; };
 		75020F7A1E47864E0096B5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75020F781E47864E0096B5A4 /* Main.storyboard */; };
@@ -14,6 +17,16 @@
 		75020F7F1E47864E0096B5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75020F7D1E47864E0096B5A4 /* LaunchScreen.storyboard */; };
 		75020F8A1E47864E0096B5A4 /* TtroPopViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F891E47864E0096B5A4 /* TtroPopViewSampleTests.swift */; };
 		75020F951E47864E0096B5A4 /* TtroPopViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75020F941E47864E0096B5A4 /* TtroPopViewSampleUITests.swift */; };
+		75020FAC1E478D2C0096B5A4 /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA21E478D2C0096B5A4 /* SourceSansPro-Black.ttf */; };
+		75020FAD1E478D2C0096B5A4 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA31E478D2C0096B5A4 /* SourceSansPro-Bold.ttf */; };
+		75020FAE1E478D2C0096B5A4 /* SourceSansPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA41E478D2C0096B5A4 /* SourceSansPro-ExtraLight.ttf */; };
+		75020FAF1E478D2C0096B5A4 /* SourceSansPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA51E478D2C0096B5A4 /* SourceSansPro-Semibold.ttf */; };
+		75020FB01E478D2C0096B5A4 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA61E478D2C0096B5A4 /* SourceSansPro-Light.ttf */; };
+		75020FB11E478D2C0096B5A4 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA71E478D2C0096B5A4 /* SourceSansPro-Regular.ttf */; };
+		75020FB21E478D2C0096B5A4 /* BNazanin_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA81E478D2C0096B5A4 /* BNazanin_1.ttf */; };
+		75020FB31E478D2C0096B5A4 /* BNaznnBd_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FA91E478D2C0096B5A4 /* BNaznnBd_1.ttf */; };
+		75020FB41E478D2C0096B5A4 /* AdobeArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FAA1E478D2C0096B5A4 /* AdobeArabic-Bold.otf */; };
+		75020FB51E478D2C0096B5A4 /* AdobeArabic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75020FAB1E478D2C0096B5A4 /* AdobeArabic-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140371DFC1DED2C80B40D3D7 /* Pods-TtroPopViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSample/Pods-TtroPopViewSample.release.xcconfig"; sourceTree = "<group>"; };
+		48D5645BE4A0C6DCB0D01646 /* Pods_TtroPopViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7E93416EAA5776D49EF7FF /* Pods-TtroPopViewSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSampleTests/Pods-TtroPopViewSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51F1D71BE13A18AA874A5DBC /* Pods_TtroPopViewSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopViewSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A34D9E8E396B7FAC4AD304 /* Pods-TtroPopViewSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSampleUITests/Pods-TtroPopViewSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		75020F711E47864E0096B5A4 /* TtroPopViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TtroPopViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75020F741E47864E0096B5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75020F761E47864E0096B5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,20 @@
 		75020F901E47864E0096B5A4 /* TtroPopViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroPopViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75020F941E47864E0096B5A4 /* TtroPopViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroPopViewSampleUITests.swift; sourceTree = "<group>"; };
 		75020F961E47864E0096B5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75020FA21E478D2C0096B5A4 /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		75020FA31E478D2C0096B5A4 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		75020FA41E478D2C0096B5A4 /* SourceSansPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		75020FA51E478D2C0096B5A4 /* SourceSansPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.ttf"; sourceTree = "<group>"; };
+		75020FA61E478D2C0096B5A4 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		75020FA71E478D2C0096B5A4 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		75020FA81E478D2C0096B5A4 /* BNazanin_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BNazanin_1.ttf; sourceTree = "<group>"; };
+		75020FA91E478D2C0096B5A4 /* BNaznnBd_1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BNaznnBd_1.ttf; sourceTree = "<group>"; };
+		75020FAA1E478D2C0096B5A4 /* AdobeArabic-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeArabic-Bold.otf"; sourceTree = "<group>"; };
+		75020FAB1E478D2C0096B5A4 /* AdobeArabic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeArabic-Regular.otf"; sourceTree = "<group>"; };
+		763B82FA833BB0A5DCEF4DF0 /* Pods-TtroPopViewSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSampleTests/Pods-TtroPopViewSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8014CE6CBD4999D90550EF3 /* Pods-TtroPopViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSample/Pods-TtroPopViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E03D87C7BA6EFD3A8AE877C2 /* Pods-TtroPopViewSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopViewSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopViewSampleUITests/Pods-TtroPopViewSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2A16A38C74CDEAD75BA8C7 /* Pods_TtroPopViewSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopViewSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232207F063BC982C45DD45E6 /* Pods_TtroPopViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FC9091268E87A15245923D /* Pods_TtroPopViewSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62EBB9F08F6F04F8B46508E6 /* Pods_TtroPopViewSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +116,8 @@
 				75020F881E47864E0096B5A4 /* TtroPopViewSampleTests */,
 				75020F931E47864E0096B5A4 /* TtroPopViewSampleUITests */,
 				75020F721E47864E0096B5A4 /* Products */,
+				DD74859CDD100B9D31902E17 /* Pods */,
+				BA4C5E796ECE1CAA38C79540 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +134,7 @@
 		75020F731E47864E0096B5A4 /* TtroPopViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				75020FB61E478D330096B5A4 /* Resources */,
 				75020F741E47864E0096B5A4 /* AppDelegate.swift */,
 				75020F761E47864E0096B5A4 /* ViewController.swift */,
 				75020F781E47864E0096B5A4 /* Main.storyboard */,
@@ -125,6 +163,46 @@
 			path = TtroPopViewSampleUITests;
 			sourceTree = "<group>";
 		};
+		75020FB61E478D330096B5A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75020FA21E478D2C0096B5A4 /* SourceSansPro-Black.ttf */,
+				75020FA31E478D2C0096B5A4 /* SourceSansPro-Bold.ttf */,
+				75020FA41E478D2C0096B5A4 /* SourceSansPro-ExtraLight.ttf */,
+				75020FA51E478D2C0096B5A4 /* SourceSansPro-Semibold.ttf */,
+				75020FA61E478D2C0096B5A4 /* SourceSansPro-Light.ttf */,
+				75020FA71E478D2C0096B5A4 /* SourceSansPro-Regular.ttf */,
+				75020FA81E478D2C0096B5A4 /* BNazanin_1.ttf */,
+				75020FA91E478D2C0096B5A4 /* BNaznnBd_1.ttf */,
+				75020FAA1E478D2C0096B5A4 /* AdobeArabic-Bold.otf */,
+				75020FAB1E478D2C0096B5A4 /* AdobeArabic-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA4C5E796ECE1CAA38C79540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D5645BE4A0C6DCB0D01646 /* Pods_TtroPopViewSample.framework */,
+				FB2A16A38C74CDEAD75BA8C7 /* Pods_TtroPopViewSampleTests.framework */,
+				51F1D71BE13A18AA874A5DBC /* Pods_TtroPopViewSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD74859CDD100B9D31902E17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8014CE6CBD4999D90550EF3 /* Pods-TtroPopViewSample.debug.xcconfig */,
+				140371DFC1DED2C80B40D3D7 /* Pods-TtroPopViewSample.release.xcconfig */,
+				4E7E93416EAA5776D49EF7FF /* Pods-TtroPopViewSampleTests.debug.xcconfig */,
+				763B82FA833BB0A5DCEF4DF0 /* Pods-TtroPopViewSampleTests.release.xcconfig */,
+				E03D87C7BA6EFD3A8AE877C2 /* Pods-TtroPopViewSampleUITests.debug.xcconfig */,
+				56A34D9E8E396B7FAC4AD304 /* Pods-TtroPopViewSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75020F991E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSample" */;
 			buildPhases = (
+				F6540A6A65BACE2E3703887F /* [CP] Check Pods Manifest.lock */,
 				75020F6D1E47864E0096B5A4 /* Sources */,
 				75020F6E1E47864E0096B5A4 /* Frameworks */,
 				75020F6F1E47864E0096B5A4 /* Resources */,
+				1A1BB2B960C569144D7D743D /* [CP] Embed Pods Frameworks */,
+				0720080A2B12898D8DBBB1CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75020F9C1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleTests" */;
 			buildPhases = (
+				A8A8650EE1AD54725BE7956B /* [CP] Check Pods Manifest.lock */,
 				75020F811E47864E0096B5A4 /* Sources */,
 				75020F821E47864E0096B5A4 /* Frameworks */,
 				75020F831E47864E0096B5A4 /* Resources */,
+				CFA07C21FB6E34CDF4517943 /* [CP] Embed Pods Frameworks */,
+				84D15D73E82D86A04FDF2929 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75020F9F1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleUITests" */;
 			buildPhases = (
+				79FA7BDA9D382D16D497BE4C /* [CP] Check Pods Manifest.lock */,
 				75020F8C1E47864E0096B5A4 /* Sources */,
 				75020F8D1E47864E0096B5A4 /* Frameworks */,
 				75020F8E1E47864E0096B5A4 /* Resources */,
+				66EE037D668F075A5A0AC61F /* [CP] Embed Pods Frameworks */,
+				6C1CA6E7EA71DD7DC63E5F4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +322,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75020FB31E478D2C0096B5A4 /* BNaznnBd_1.ttf in Resources */,
+				75020FAE1E478D2C0096B5A4 /* SourceSansPro-ExtraLight.ttf in Resources */,
+				75020FAC1E478D2C0096B5A4 /* SourceSansPro-Black.ttf in Resources */,
+				75020FAF1E478D2C0096B5A4 /* SourceSansPro-Semibold.ttf in Resources */,
+				75020FB21E478D2C0096B5A4 /* BNazanin_1.ttf in Resources */,
 				75020F7F1E47864E0096B5A4 /* LaunchScreen.storyboard in Resources */,
+				75020FB41E478D2C0096B5A4 /* AdobeArabic-Bold.otf in Resources */,
+				75020FAD1E478D2C0096B5A4 /* SourceSansPro-Bold.ttf in Resources */,
 				75020F7C1E47864E0096B5A4 /* Assets.xcassets in Resources */,
 				75020F7A1E47864E0096B5A4 /* Main.storyboard in Resources */,
+				75020FB01E478D2C0096B5A4 /* SourceSansPro-Light.ttf in Resources */,
+				75020FB51E478D2C0096B5A4 /* AdobeArabic-Regular.otf in Resources */,
+				75020FB11E478D2C0096B5A4 /* SourceSansPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +353,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0720080A2B12898D8DBBB1CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSample/Pods-TtroPopViewSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A1BB2B960C569144D7D743D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSample/Pods-TtroPopViewSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66EE037D668F075A5A0AC61F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSampleUITests/Pods-TtroPopViewSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1CA6E7EA71DD7DC63E5F4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSampleUITests/Pods-TtroPopViewSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FA7BDA9D382D16D497BE4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84D15D73E82D86A04FDF2929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSampleTests/Pods-TtroPopViewSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A8650EE1AD54725BE7956B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA07C21FB6E34CDF4517943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewSampleTests/Pods-TtroPopViewSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6540A6A65BACE2E3703887F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75020F6D1E47864E0096B5A4 /* Sources */ = {
@@ -411,6 +646,7 @@
 		};
 		75020F9A1E47864E0096B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8014CE6CBD4999D90550EF3 /* Pods-TtroPopViewSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F53V3ZJV96;
@@ -424,6 +660,7 @@
 		};
 		75020F9B1E47864E0096B5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140371DFC1DED2C80B40D3D7 /* Pods-TtroPopViewSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F53V3ZJV96;
@@ -437,6 +674,7 @@
 		};
 		75020F9D1E47864E0096B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7E93416EAA5776D49EF7FF /* Pods-TtroPopViewSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +690,7 @@
 		};
 		75020F9E1E47864E0096B5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763B82FA833BB0A5DCEF4DF0 /* Pods-TtroPopViewSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +706,7 @@
 		};
 		75020FA01E47864E0096B5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03D87C7BA6EFD3A8AE877C2 /* Pods-TtroPopViewSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = F53V3ZJV96;
@@ -481,6 +721,7 @@
 		};
 		75020FA11E47864E0096B5A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A34D9E8E396B7FAC4AD304 /* Pods-TtroPopViewSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = F53V3ZJV96;
@@ -512,6 +753,7 @@
 				75020F9B1E47864E0096B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75020F9C1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +762,7 @@
 				75020F9E1E47864E0096B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75020F9F1E47864E0096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +771,7 @@
 				75020FA11E47864E0096B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
