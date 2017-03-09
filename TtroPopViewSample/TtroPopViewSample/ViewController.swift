@@ -67,6 +67,13 @@ extension ConverterPopViewController : TtroPopViewDelegate {
     func ttroPopView(numberOfViews popView : TtroPopView, viewAtIndex index : Int) -> UIView {
         switch index {
         case 0:
+//            let v = UIView() //BackgroundAttributeView
+//            let c = HiglightTextView()
+//            c.text = NSAttributedString(string: "this is highlighted text, this is highlighted text, this is highlighted text", attributes: [NSFontAttributeName : UIFont.TtroPayWandFonts.regular1.font, HiglightTextView.HighLightColorAttribute : UIColor.TtroColors.orange.color, NSForegroundColorAttributeName : UIColor.white])
+//            v.addSubview(c)
+//            c <- Edges()
+//            c <- Height(100)
+//            return v
             return getAmountView()
         case 1:
             return getExchangeCurrencyView()
