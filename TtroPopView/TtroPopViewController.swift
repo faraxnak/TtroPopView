@@ -32,8 +32,8 @@ open class TtroPopViewController: UIViewController {
         view.addSubview(ttroPopView)
         ttroPopView <- [
             Center(),
-            Height(>=250).with(.highPriority),
-            Height(<=450).with(Priority.highPriority),
+            Height(>=250).with(.high),
+            Height(<=450).with(Priority.high),
             Width(*0.8).like(view)
         ]
         popViewHeightConstraint = ttroPopView.heightAnchor.constraint(equalToConstant: 300)
