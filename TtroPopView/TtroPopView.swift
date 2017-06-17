@@ -19,7 +19,7 @@ public protocol TtroPopViewDelegate : BottomViewDelegate {
 
 public class TtroPopView: UIView {
     
-    public var delegate : TtroPopViewDelegate!
+    public weak var delegate : TtroPopViewDelegate!
     
     public var stackView : UIStackView!
     public var scrollView : UIScrollView!
