@@ -46,7 +46,7 @@ public class TtroPopView: UIView {
         bottomView = BottomView(numberOfButtons: nil, delegate: delegate)
         self.addSubview(bottomView)
         bottomView <- [
-            Height(40),
+            Height(50),
             Bottom(),
             Width().like(self),
             CenterX()
