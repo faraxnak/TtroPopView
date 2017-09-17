@@ -10,7 +10,7 @@ import UIKit
 import EasyPeasy
 import PayWandBasicElements
 
-public protocol TtroPopViewDelegate : BottomViewDelegate {
+@objc public protocol TtroPopViewDelegate : BottomViewDelegate {
     
     func ttroPopView(numberOfViews popView : TtroPopView) -> Int
     

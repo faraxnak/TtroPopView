@@ -10,8 +10,8 @@ import UIKit
 import EasyPeasy
 import PayWandBasicElements
 
-public protocol TtroPopViewControllerDelegate : TtroPopViewDelegate {
-    
+@objc public protocol TtroPopViewControllerDelegate : TtroPopViewDelegate {
+    @objc optional func popViewController(popViewTitle popViewController: TtroPopViewController) -> String
 }
 
 open class TtroPopViewController: UIViewController {
@@ -19,7 +19,7 @@ open class TtroPopViewController: UIViewController {
     var ttroPopView : TtroPopView!
     var popViewHeightConstraint : NSLayoutConstraint!
     
-    public var delegate : TtroPopViewControllerDelegate!
+    public weak var delegate : TtroPopViewControllerDelegate!
     
     override open func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,8 @@ open class TtroPopViewController: UIViewController {
         view.addSubview(blurView)
         blurView <- Edges()
         
-        ttroPopView = TtroPopView(title: "Currency Convertor", delegate : delegate)
+        let title = delegate.popViewController?(popViewTitle: self) ?? "Currency Convertor"
+        ttroPopView = TtroPopView(title: title, delegate : delegate)
         view.addSubview(ttroPopView)
         ttroPopView <- [
             Center(),
