@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "42015F79E85F0C98E4763BA44EC05CD3"
+               BlueprintIdentifier = "CAA5778CB1AB2623160CC864105F4DFC"
                BuildableName = "Pods_TtroPopViewTests.framework"
                BlueprintName = "Pods-TtroPopViewTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "42015F79E85F0C98E4763BA44EC05CD3"
+            BlueprintIdentifier = "CAA5778CB1AB2623160CC864105F4DFC"
             BuildableName = "Pods_TtroPopViewTests.framework"
             BlueprintName = "Pods-TtroPopViewTests"
             ReferencedContainer = "container:Pods.xcodeproj">

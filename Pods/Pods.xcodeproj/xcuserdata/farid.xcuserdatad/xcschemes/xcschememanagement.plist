@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PayWandModelProtocols.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TtroPopView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-TtroPopViewTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -41,42 +41,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>1259A79E9C0160F09B8C80FBE4FA91D0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>42015F79E85F0C98E4763BA44EC05CD3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>50663D0190A93BC76CDAD840C29FE200</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>60DAEEB1932B65A1B49F4B4E7B0C0048</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>76946471F39266E99B8704680A1D75FB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B5221EA08C01208C608AC6ECB17B9F2E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D4253F87176115CA05D9012798046971</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

@@ -77,7 +77,7 @@ public class BottomView: UIView {
         
         let horizontal = Separator(horizontal: true, superview: self, coeff: 0.95)
         horizontal.backgroundColor = UIColor.gray
-        horizontal <- Bottom(-5).to(self, .top).with(.low)
+        horizontal <- Bottom(-5).to(self, .top).with(Priority.lowPriority)
         
         stackedView.addArrangedSubview(firstButton)
         firstButton.setTitle(buttonTitles[0], for: .normal)

@@ -7,334 +7,314 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030D441EF7561E9AEEF329E3C0434D2B /* APCustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF99EC181E63D97C68C9474E672F9C /* APCustomBlurView.swift */; };
-		0768890904945343C17C77E9D5AE4D3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		0B81AEF6DC0196FD77C2DF630635FEE4 /* Pods-TtroPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F13E3ED89AE82E6C1A66E2AB0FA15D0F /* Pods-TtroPopView-dummy.m */; };
-		0DC98CD86D69D7E824DC8A52602CE731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		0DD46A9876D07B79D473C6D3FC4946D2 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F03EC910C4A924E9D0B80BABBD497B81 /* NSArray+PureLayout.m */; };
-		0E4D484CDC66423F39D398ED28B9A37F /* DimensionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D8B0E6F29C19627A5E83B22601D08 /* DimensionAttribute.swift */; };
-		1277975DE0C5DF1EA60CA33DA4EA54DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		1852FB3D090CE6BC4E82D5E6C4B30592 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5769A739C1BC09C0A99A205533473B46 /* UIKit.framework */; };
-		1C3BF79F0332D9CD83DE6E2B37941C6D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59926DCEF77984C0936B7EF4C7E86A /* UIColorExtension.swift */; };
-		1D2FF4D810821FA697B82E9BE08B029F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFF802CE58F570F2C0C79A1D14B17DB /* Item.swift */; };
-		1EFA38A9B401515DEA501D1CDC0A8EB9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3ABED3E49C3A3A4BC146B0F7DAFD8 /* Extensions.swift */; };
-		1F98403FA7386FBD5C04706DA198E178 /* PositionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A9AB3C56125A54104528B895AF50F /* PositionAttribute+AppKit.swift */; };
-		238EDC1AB26BE7C697EF58F21B949C88 /* EasyPeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA1E23324DF9B3EF08555A06DF0EF77 /* EasyPeasy-dummy.m */; };
-		2422F1C5ED696FBFE3C9CCC92F23A8E3 /* SwiftyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D849431E4476C0689CC7B592153613 /* SwiftyButton.framework */; };
-		31F60DBB6662B43BB7182A94B1063E40 /* CompoundAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE663E4B5C2A5D515F27E78F56619B3C /* CompoundAttribute.swift */; };
-		32A5CF7C9046F0D677E1D6DFF66EF549 /* EasyPeasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A686346CE2E9EC65BA60FB32D4E57F9B /* EasyPeasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3474E4E655382B527D799C55021A3567 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B82A4666AC0783C10B5482F550525 /* Attribute.swift */; };
-		35550F0F2D3072F048821AA8567F7C14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5769A739C1BC09C0A99A205533473B46 /* UIKit.framework */; };
-		4297A622953D7F70A96510FA334FA09E /* Pods-TtroPopViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F7FE787D6471C4C27E0339790E982 /* Pods-TtroPopViewTests-dummy.m */; };
-		42DDC034671649DDD83A834774825CBB /* PositionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE82743A329FC0E4CD0AD38ABE5DFF5 /* PositionAttribute.swift */; };
-		44B2644538FBA736963EE6D7FC685A1A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD48D6CE3F5F90CA57A87AE38F246E3 /* Constant.swift */; };
-		48AD84F7956F1A5E5DABAD3114576032 /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2556DFDDEE935120FC39A07BB4DF3EA /* UIView+Easy.swift */; };
-		528852BBA10BDD4CF993006141B60763 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF8ED924A9E56C1E60671F9CF3272BF /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B877E31E2CC41C2E0DC6F73D0451B3 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2AF3219A55DFF79A833A6CD71A6705 /* SwiftyButton-dummy.m */; };
-		55C78A8925CC7E1F2B5194398B914833 /* Item+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15177EFDC72809A153511C0ED7C7391B /* Item+AppKit.swift */; };
-		584B53C655CCC4AF7C7F44A174D34F40 /* DimensionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9B9CD36C3FDB6263A5719197040554 /* DimensionAttribute+UIKit.swift */; };
-		5AC48C172934C77A2C2F6B8E9186CDB2 /* TtroLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B093C6AB042FACEED06855CE4FC248E2 /* TtroLabel.swift */; };
-		61A5DBA8B391FC6F8FCB55A6DF698272 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA92B83CD3D32B0FD5DF2A7CE3143CF /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		637AECF468E9AFA67663A6FE12D670B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		648EFEC4186BA6BA3818656A4969416A /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD98FFF43FD4ADAC8415C39FE38D8877 /* ALView+PureLayout.m */; };
-		6AFB4E22A96B1FD008C5720D8E6EAEED /* SwiftyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04B24893CA482755C00E4B6C4EE47F /* SwiftyButton.swift */; };
-		7FD80237B2B9D85C9B5FAA2B95DADF7F /* ReferenceAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26715E4823430C20A5D2C3B5D71294B1 /* ReferenceAttribute.swift */; };
-		881ED268B3811258763249C94170E4C0 /* Pods-TtroPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2843E6EAC854568B932CD3EB419E390B /* Pods-TtroPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		883A058B9815B3CFD89DDFDB1CAA0DA2 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 24907F57042E53F9BDAB6437FFECEDEF /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CB4FD30B0E4C10C3449F7F0263D1537 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC98C9B59DAC5F133333539ED3A575E /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E0E660019420B111D1B730A20D55AAE /* UILayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87F2729EF0F4119520142499987156E /* UILayoutGuide+Easy.swift */; };
-		8E9360C02A77DCA0D1F9D8415CF059AF /* SwiftyCustomContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1F8CAB187828CEB42E110B2DB0B98 /* SwiftyCustomContentButton.swift */; };
-		9053EBA2CB510BFE30A7B32C12B8070E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F991D62C0A9AC9BB8E05DD809A8F7775 /* Node.swift */; };
-		99276F788B7E64FDB66A9F6EE0102BBC /* Pods-TtroPopViewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55EDDE4B74618D7B3B5AADA3A5B15A1 /* Pods-TtroPopViewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D5800496526AA7608455476C53AE0A6 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E978873855136B75535D8A5439F8F12 /* Priority.swift */; };
-		A3F6E4C54884F1E28AF85795ACB1FB64 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8CE1B502B7AE94D67D33F64750272B /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5F56CCEAD85BF57AF7D00B2B34F1729 /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0344E2AC9A91ECB47535FE07773AAF /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A61A54646708C458650EC61D0B0D6512 /* SwiftyButton+ResizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA63E48018BF4194BE50FC3687E5D63 /* SwiftyButton+ResizableImage.swift */; };
-		A7CC295E4383A5F0A07EA42CAE243276 /* PayWandBasicElements-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DB8446401560506836DA328FA84C7AF /* PayWandBasicElements-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0B37F76060CCD8CB05A9958CBB9C143 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AB751A40F5BC066359E4C00068721787 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7556966881E82AA8A9CFA621017A86A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		BB2A8CB1C1E8A95904D20134E3154191 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2752314D6FE2CF4CAE1525C486B4FF /* EasyPeasy.framework */; };
-		BBDD5A2F124A7538D60BFC9B9B91C0EB /* DimensionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6480C84A3C99FB88F14335BB5A067A42 /* DimensionAttribute+AppKit.swift */; };
-		BC5AB76802C3AF039CFB6102E2E89AD7 /* Item+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EE8B61A93DE06D0C28D56D45E16A30 /* Item+UIKit.swift */; };
-		C3F1CF25A547A3761DD89DB494CECF60 /* NSLayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A34F82B36DE560A8406B65BF6D99C /* NSLayoutGuide+Easy.swift */; };
-		C7604258E5E7FD6C1659545514F34E85 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD05720258997143EC5AADDD36F7CE0F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C860DF1DA2767DC93B882EED79A30518 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B573659E5B4AC4A7997B196D4A7D209 /* UIColor_Hex_Swift-dummy.m */; };
-		C95C8312DBA615BA67B27518E9F5A0A5 /* PayWandBasicElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03E99C556898E0F8BA7460EABF3949 /* PayWandBasicElements-dummy.m */; };
-		CCF8C5BDA51404F535B734C8FD7A5B0D /* PositionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423AEBBBD232868ACD36843C7AE957F /* PositionAttribute+UIKit.swift */; };
-		D26ECF6D846C3291E945D1FD1165D4DD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0529F48124D42CDBDD7DC068ACE8D7BD /* Context.swift */; };
-		D3BA3D1B8D62D17B6F721B8D550570D9 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448313FCB0C93ED5064E0ABF8479B3A0 /* PureLayout.framework */; };
-		D83409947752D7FCDAAE8B5F7734875D /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467951529B77A97B65EE60BA4ACF4345 /* PureLayout-dummy.m */; };
-		DDA435B3FE27F50C8F7D2FB5899B324E /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CBFD899F5B265D781CFD7ED40C84F5 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E02861D212636F4FE44250C89EB0F20A /* TtroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D174730970B4A2FD5CBAFF66002A49C7 /* TtroButton.swift */; };
-		E8988848228638F22718E81F898BF7AE /* TtroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA84F47319995BED59A9D47D238A80F /* TtroTextField.swift */; };
-		EC004421E3871FC04DC326A6A203577C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		EDB236F3139700DAA77B89630C40382F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */; };
-		EE3F7936D0001C21F6125A3A0D1F33FF /* TtroDigitEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B253C8CE42EB41A63673F2A3870EF02A /* TtroDigitEntry.swift */; };
-		F12440C59BCC14AB45EEE2651323876C /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDA84DB2E410BAEBB72A21A25DEF281 /* UIColor_Hex_Swift.framework */; };
-		F39915BF9B78F9A7F550FC6775A4BD4A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05C2618272817579DE214A194A6D49 /* NSLayoutConstraint+PureLayout.m */; };
-		FB45CA1317275242EAE843BAB59D0F68 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3D8CC23C3AC5779470CCFCC25BF7ED /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE600361B8F8D819D07EE55AD1BA9BCF /* NSView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA811D27DA03F4841B168A1A43DB290 /* NSView+Easy.swift */; };
+		01D287CAA4993877D039EEB19AEE06C6 /* CustomPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF75238DB625DDB8322E14C2F7B667 /* CustomPressableButton.swift */; };
+		02A4C5A115A3B3B42425B0AF0F0BFCCF /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E9198C6FD8FA01E04347E3F7C44A8B /* UIColor_Hex_Swift.framework */; };
+		044D06165993B6047891C61116C20E2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5C8673CBFB5F6D5CC34BFE3495DBCC /* UIKit.framework */; };
+		0CD548F1926734383FB54EC0C28B10D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		0E4D484CDC66423F39D398ED28B9A37F /* DimensionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F113366FDF54E6C1EC5857FF12DE113 /* DimensionAttribute.swift */; };
+		162C3807D81862988EE66ABD75660490 /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A6170A08297FD43110238680E539B9 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182DAD6AA47D8AF9B0B46511B5071C72 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1843E3C2599A668E1002FB0E0EB56E20 /* EasyPeasy.framework */; };
+		1D2FF4D810821FA697B82E9BE08B029F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF9E7F9B803DA719E04F06E6CC076F5 /* Item.swift */; };
+		1F98403FA7386FBD5C04706DA198E178 /* PositionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F74FA7550C4039E13312DE1CCA2ECF /* PositionAttribute+AppKit.swift */; };
+		238EDC1AB26BE7C697EF58F21B949C88 /* EasyPeasy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE35662D35BC50723130437E148AAD /* EasyPeasy-dummy.m */; };
+		24A8B73E4DA9132A2B15A20FA8E8D06A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		31F60DBB6662B43BB7182A94B1063E40 /* CompoundAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E062539AAEF19883E5F247AE501DC /* CompoundAttribute.swift */; };
+		32A5CF7C9046F0D677E1D6DFF66EF549 /* EasyPeasy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E0D72F7F139D01C9DAFF6AB6537815 /* EasyPeasy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333EE66784BA70957630E22F28DD96B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5C8673CBFB5F6D5CC34BFE3495DBCC /* UIKit.framework */; };
+		3474E4E655382B527D799C55021A3567 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE10A25F34A541453ED984A6C92B6C /* Attribute.swift */; };
+		3EA23726743961624E20E5B1F3A90417 /* PressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916D6DFBABBA00916ECB9E7FBE63DF1 /* PressableButton.swift */; };
+		42DDC034671649DDD83A834774825CBB /* PositionAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE45A3261D8BF5A991F80195162D5A3B /* PositionAttribute.swift */; };
+		4372CCB77678A69D5FDE0FB7BDFF28BB /* Pods-TtroPopViewTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55EDDE4B74618D7B3B5AADA3A5B15A1 /* Pods-TtroPopViewTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B2644538FBA736963EE6D7FC685A1A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0E82227417C7FD2C8D442D64861597 /* Constant.swift */; };
+		463A1189A6FE4065B4A222BAA44AD7B8 /* SwiftyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F838D9A66D54BB003BC6636AC135D07 /* SwiftyButton.framework */; };
+		48AD84F7956F1A5E5DABAD3114576032 /* UIView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F501826B400BADD56802BFE89CD27B /* UIView+Easy.swift */; };
+		55C78A8925CC7E1F2B5194398B914833 /* Item+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EBB0961B3455BC1F75D751D13E7D6 /* Item+AppKit.swift */; };
+		584B53C655CCC4AF7C7F44A174D34F40 /* DimensionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A5ADCDD99B52A00D9924F1A9DA4F47 /* DimensionAttribute+UIKit.swift */; };
+		63B97B1B6398779008DA04F9A1B1C93A /* TtroDigitEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A653C761136D215F407AC5C7C71D905 /* TtroDigitEntry.swift */; };
+		64FAE975DEAFB808C31956D686E2C473 /* PayWandBasicElements-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E1E9C6D2ABACD9391BAAADFB80040D /* PayWandBasicElements-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		651EE477B8A94BAB8671AB4D6691F7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		76956E783FDC3E124159228F5368FD50 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF578D106959F531655EBE2C2AD54C5 /* UIColorExtension.swift */; };
+		7FD80237B2B9D85C9B5FAA2B95DADF7F /* ReferenceAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14379BA8EB59C9B5438D2D354DE79183 /* ReferenceAttribute.swift */; };
+		8254F4B7FF3D6287E25BA22D50773089 /* Pods-TtroPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F13E3ED89AE82E6C1A66E2AB0FA15D0F /* Pods-TtroPopView-dummy.m */; };
+		8468B41311BE5347972F7C6669D1C1B1 /* PayWandModelProtocols-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9719CC225DDA7C65EA54BC01BEED0C85 /* PayWandModelProtocols-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872D15142605DB3BE6706D4C360D4A11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833BA4BAABE3EA28EE8098BEFB76FF8 /* Extensions.swift */; };
+		8E0E660019420B111D1B730A20D55AAE /* UILayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039E96833852AA2FEEE13FB995ADF26A /* UILayoutGuide+Easy.swift */; };
+		9053EBA2CB510BFE30A7B32C12B8070E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C6C0F297144E97DBDA727873CF2895 /* Node.swift */; };
+		90FA9DB64B316B97C5CC3711BC61D673 /* TtroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC24F13DA666F736E06838B966F28E /* TtroTextField.swift */; };
+		9137FEF3AD339EABE017D459DCAE34E9 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 251236EBD0C63D0A4A529A532C9AB713 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9546A6265340C25C60575144163034E2 /* ServerDataProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD76738051D8E196287D74B055E320 /* ServerDataProtocols.swift */; };
+		97151EF53C7E9F9CC5C31496DAE968EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		9D5800496526AA7608455476C53AE0A6 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5CCA9D96C8DA5F057FDA51BFA243B9 /* Priority.swift */; };
+		9FDCB97D53DE1CCAA279AEFF657C1A34 /* Pods-TtroPopViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1F7FE787D6471C4C27E0339790E982 /* Pods-TtroPopViewTests-dummy.m */; };
+		A0332537E6C6D2BE2E1E66A7F861CCDF /* PayWandModelProtocols-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623F05D73D9B4A0DAB604BE3BA4C914 /* PayWandModelProtocols-dummy.m */; };
+		A0AB0DF9B01BC6FA1091FA7CFDEA8B1D /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24D20E6A53484BFFD2D3E29CCF6461 /* UIColor_Hex_Swift-dummy.m */; };
+		A7DDEE67570B7F9940345B180CBE3A19 /* CoreDataProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987879B23CBC0A43498304AEF8674A0F /* CoreDataProtocols.swift */; };
+		AAD0D472571F0BC278D872822F9D745B /* Pods-TtroPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2843E6EAC854568B932CD3EB419E390B /* Pods-TtroPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6663D05AA2F1715F882FD22EEEB1424 /* TtroLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF963763FBF667255BA261BA4EB74F6 /* TtroLabel.swift */; };
+		B68467F12ED16FE8D2F1EF0DF3796D11 /* SwiftyButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED64BB8394637686542A312703B5F996 /* SwiftyButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75E871106F4A60C902B51C75A9E9E91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		BBDD5A2F124A7538D60BFC9B9B91C0EB /* DimensionAttribute+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F533198998F926A0F82E33917C66C1D /* DimensionAttribute+AppKit.swift */; };
+		BC5AB76802C3AF039CFB6102E2E89AD7 /* Item+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D45FC776B02F64CA909F71A368EDE7 /* Item+UIKit.swift */; };
+		BF5EE4741002190818E6877862659E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		C3F1CF25A547A3761DD89DB494CECF60 /* NSLayoutGuide+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5602D3EB04F49709261F7647F09C2FF /* NSLayoutGuide+Easy.swift */; };
+		C922856111CB589BD157E5322042E29A /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED27EC8FBF769EFCDE2C1214BA072429 /* FlatButton.swift */; };
+		CCF8C5BDA51404F535B734C8FD7A5B0D /* PositionAttribute+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F09B51B2D4A4B17088C4C0C5D97DE4 /* PositionAttribute+UIKit.swift */; };
+		CF76F5036EF9362604470BFEC4BE3187 /* APCustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFF251868FA721552BBC32AA2B8CE1 /* APCustomBlurView.swift */; };
+		D26ECF6D846C3291E945D1FD1165D4DD /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C498C72799C889C8482D7FE3EB530C4 /* Context.swift */; };
+		D511424315E489278BC544C9206A2869 /* PayWandModelProtocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A6A18622F0ED8C71A14AC33015AFC /* PayWandModelProtocols.framework */; };
+		D646184F14487560540428F19E0BDAE1 /* PayWandBasicElements-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DEBC598F2CD30FC9ECF3F914A9E41F /* PayWandBasicElements-dummy.m */; };
+		E29BB3ADFE5DF52EC313A2D1E7085BC6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41813989BBD35C8F91F4F6A32398F3 /* Utils.swift */; };
+		F3CB29CF40148E51549785D6ACCD4163 /* TtroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0888EC0DB61FBA6CE81539CB21278 /* TtroButton.swift */; };
+		F8E2982015B1CCB65F69F32D47A8AFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */; };
+		FD5679AEB6E435E24911307344022968 /* SwiftyButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A0B87EE4EDC629E54816E41487E47 /* SwiftyButton-dummy.m */; };
+		FE600361B8F8D819D07EE55AD1BA9BCF /* NSView+Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380787BD288B65F01E07088039819A6C /* NSView+Easy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D4F2F2A247796C1DA063ABB8CB454FE /* PBXContainerItemProxy */ = {
+		07288B3C21F51D9787A73CC241462CCA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D4253F87176115CA05D9012798046971;
-			remoteInfo = PureLayout;
-		};
-		12209939F82AFC6E53A18F9850C4D1CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5221EA08C01208C608AC6ECB17B9F2E;
-			remoteInfo = EasyPeasy;
-		};
-		370B2BDB474760883F4825D3522E52B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60DAEEB1932B65A1B49F4B4E7B0C0048;
+			remoteGlobalIDString = 7C3F2D0B2F0D238DE6337AC1D1F3A3C9;
 			remoteInfo = PayWandBasicElements;
 		};
-		408FDE207FB85BE36740C9F691E838BA /* PBXContainerItemProxy */ = {
+		17E10F7A169472804471263B68D8FC50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1259A79E9C0160F09B8C80FBE4FA91D0;
+			remoteGlobalIDString = 9ACCDA2A999ED7F9446D1D2EED0DCD15;
+			remoteInfo = PayWandModelProtocols;
+		};
+		1B80C38840A97CBE6995F7E4DB2A5088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E29289833BF606691737E8B5C93C3E;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		2384BB76B9FBCED62D0541E5F0428646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75BF2DD99C735E0E84A0DAA028BE6F1;
 			remoteInfo = SwiftyButton;
 		};
-		5C7809F1938DB568FDD0A25CF137EA96 /* PBXContainerItemProxy */ = {
+		256071810AE2D3AB455AFEFCA8EE1360 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60DAEEB1932B65A1B49F4B4E7B0C0048;
+			remoteGlobalIDString = B75BF2DD99C735E0E84A0DAA028BE6F1;
+			remoteInfo = SwiftyButton;
+		};
+		2DFAB97064366BC097951CCD1126E734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C3F2D0B2F0D238DE6337AC1D1F3A3C9;
 			remoteInfo = PayWandBasicElements;
 		};
-		79D05CA56F3371BF2DA41F0E991FC7B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4253F87176115CA05D9012798046971;
-			remoteInfo = PureLayout;
-		};
-		7E018F2D956D3EE4DF1DF281C4C2C450 /* PBXContainerItemProxy */ = {
+		2E7C0B2617E0BAD43BA981820E7DB3FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5221EA08C01208C608AC6ECB17B9F2E;
 			remoteInfo = EasyPeasy;
 		};
-		7ED41EEA3E1941E0E6C78AA9531E24BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76946471F39266E99B8704680A1D75FB;
-			remoteInfo = UIColor_Hex_Swift;
-		};
-		8CABA7A95AE49946FA59DE8FE40F6695 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D4253F87176115CA05D9012798046971;
-			remoteInfo = PureLayout;
-		};
-		8F37468D736D124ACC8CB10737DC5D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1259A79E9C0160F09B8C80FBE4FA91D0;
-			remoteInfo = SwiftyButton;
-		};
-		938A6EAF26A4448F5D83118ED9C4A197 /* PBXContainerItemProxy */ = {
+		3D9137E9B59E2422A3A5C2CBDF993CE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B5221EA08C01208C608AC6ECB17B9F2E;
 			remoteInfo = EasyPeasy;
 		};
-		C7906B8AD5A90A941DF42BD072DD3BF8 /* PBXContainerItemProxy */ = {
+		89E6BF98B0CF53DCB8A4891019BC061A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76946471F39266E99B8704680A1D75FB;
-			remoteInfo = UIColor_Hex_Swift;
+			remoteGlobalIDString = 9ACCDA2A999ED7F9446D1D2EED0DCD15;
+			remoteInfo = PayWandModelProtocols;
 		};
-		EA204E50F2E64B4D12D87AA037DB3338 /* PBXContainerItemProxy */ = {
+		AD5A9F3D3DBD2B1CB57633CBDA41FC8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1259A79E9C0160F09B8C80FBE4FA91D0;
+			remoteGlobalIDString = B75BF2DD99C735E0E84A0DAA028BE6F1;
 			remoteInfo = SwiftyButton;
 		};
-		F4D069115C3AB03DA6D0EC4BA2293623 /* PBXContainerItemProxy */ = {
+		DDF53170A839801E579B0CE09E8C3959 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76946471F39266E99B8704680A1D75FB;
+			remoteGlobalIDString = 9ACCDA2A999ED7F9446D1D2EED0DCD15;
+			remoteInfo = PayWandModelProtocols;
+		};
+		DF419882A9906B96975DDA422CB50B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E29289833BF606691737E8B5C93C3E;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		EB07E2051C03FE54CEDCAD9F2C9EBF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5221EA08C01208C608AC6ECB17B9F2E;
+			remoteInfo = EasyPeasy;
+		};
+		EBF49CC7B543F2ADAE7DFF73FEDFFA1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E29289833BF606691737E8B5C93C3E;
 			remoteInfo = UIColor_Hex_Swift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0423AEBBBD232868ACD36843C7AE957F /* PositionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+UIKit.swift"; path = "EasyPeasy/PositionAttribute+UIKit.swift"; sourceTree = "<group>"; };
-		0529F48124D42CDBDD7DC068ACE8D7BD /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = EasyPeasy/Context.swift; sourceTree = "<group>"; };
-		05CBFD899F5B265D781CFD7ED40C84F5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		039E96833852AA2FEEE13FB995ADF26A /* UILayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Easy.swift"; path = "EasyPeasy/UILayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		05DEBC598F2CD30FC9ECF3F914A9E41F /* PayWandBasicElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayWandBasicElements-dummy.m"; sourceTree = "<group>"; };
+		0AB27D9DAB18B4406F5861EE1352842C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD50B59E06D1FFE584A289088918C82 /* PayWandModelProtocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PayWandModelProtocols.framework; path = PayWandModelProtocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA44E70ADE97CCE29ABC1B15D9B32CC /* MIT License */ = {isa = PBXFileReference; includeInIndex = 1; path = "MIT License"; sourceTree = "<group>"; };
 		11AFAF6301D95F6F01C249280351CCC4 /* Pods-TtroPopViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TtroPopViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15177EFDC72809A153511C0ED7C7391B /* Item+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+AppKit.swift"; path = "EasyPeasy/Item+AppKit.swift"; sourceTree = "<group>"; };
-		19D849431E4476C0689CC7B592153613 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B68DA71C27F49C16B8470A5C2CC118F /* Pods_TtroPopViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TtroPopViewTests.framework; path = "Pods-TtroPopViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C59926DCEF77984C0936B7EF4C7E86A /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
-		1DF8ED924A9E56C1E60671F9CF3272BF /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		14379BA8EB59C9B5438D2D354DE79183 /* ReferenceAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceAttribute.swift; path = EasyPeasy/ReferenceAttribute.swift; sourceTree = "<group>"; };
+		1461A2E54F2C602F77F939FBE5E88AF4 /* PayWandModelProtocols.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PayWandModelProtocols.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14E0D72F7F139D01C9DAFF6AB6537815 /* EasyPeasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-umbrella.h"; sourceTree = "<group>"; };
+		1843E3C2599A668E1002FB0E0EB56E20 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E6A0B87EE4EDC629E54816E41487E47 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
 		204E6CABF97C5884270C1B771B129A2A /* Pods-TtroPopView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TtroPopView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21596AC2F2B6EB78FBBB320AF8B0D254 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24907F57042E53F9BDAB6437FFECEDEF /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		26715E4823430C20A5D2C3B5D71294B1 /* ReferenceAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceAttribute.swift; path = EasyPeasy/ReferenceAttribute.swift; sourceTree = "<group>"; };
-		2781152E1ACFC46B481A2F99FCCE0A50 /* EasyPeasy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-prefix.pch"; sourceTree = "<group>"; };
+		24D0888EC0DB61FBA6CE81539CB21278 /* TtroButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TtroButton.swift; path = PayWandBasicElements/TtroButton.swift; sourceTree = "<group>"; };
+		251236EBD0C63D0A4A529A532C9AB713 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		25228FA5D76A8D6E4197811BF7D17AFC /* EasyPeasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EasyPeasy.modulemap; sourceTree = "<group>"; };
+		256AE3E70B6E393338C6D0A2D6C5FD94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2843E6EAC854568B932CD3EB419E390B /* Pods-TtroPopView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TtroPopView-umbrella.h"; sourceTree = "<group>"; };
-		2CA63E48018BF4194BE50FC3687E5D63 /* SwiftyButton+ResizableImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftyButton+ResizableImage.swift"; path = "SwiftyButton/SwiftyButton+ResizableImage.swift"; sourceTree = "<group>"; };
+		2A653C761136D215F407AC5C7C71D905 /* TtroDigitEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TtroDigitEntry.swift; path = PayWandBasicElements/TtroDigitEntry.swift; sourceTree = "<group>"; };
+		2B5A6A18622F0ED8C71A14AC33015AFC /* PayWandModelProtocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PayWandModelProtocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F838D9A66D54BB003BC6636AC135D07 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAF3ABDDB3BF50A5CB4C3C075A82814 /* Pods-TtroPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TtroPopView.release.xcconfig"; sourceTree = "<group>"; };
-		31E1F8CAB187828CEB42E110B2DB0B98 /* SwiftyCustomContentButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyCustomContentButton.swift; path = SwiftyButton/SwiftyCustomContentButton.swift; sourceTree = "<group>"; };
-		342F0ED1B0F478B101F42188EB7C25AF /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		3B03E99C556898E0F8BA7460EABF3949 /* PayWandBasicElements-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayWandBasicElements-dummy.m"; sourceTree = "<group>"; };
-		3D04B24893CA482755C00E4B6C4EE47F /* SwiftyButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyButton.swift; path = SwiftyButton/SwiftyButton.swift; sourceTree = "<group>"; };
-		3F51BF9A052E540C36D235DC91DEB53B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		448313FCB0C93ED5064E0ABF8479B3A0 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45A3ABED3E49C3A3A4BC146B0F7DAFD8 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		467951529B77A97B65EE60BA4ACF4345 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		467FCC17D81CB4EB55C82237D57A6BC5 /* PayWandBasicElements.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayWandBasicElements.xcconfig; sourceTree = "<group>"; };
+		380787BD288B65F01E07088039819A6C /* NSView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Easy.swift"; path = "EasyPeasy/NSView+Easy.swift"; sourceTree = "<group>"; };
+		3833BA4BAABE3EA28EE8098BEFB76FF8 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = PayWandBasicElements/Extensions.swift; sourceTree = "<group>"; };
+		3C498C72799C889C8482D7FE3EB530C4 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = EasyPeasy/Context.swift; sourceTree = "<group>"; };
+		3ED77C7A38EC643CBD02C649CFF5E095 /* SwiftyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyButton.framework; path = SwiftyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F74FA7550C4039E13312DE1CCA2ECF /* PositionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+AppKit.swift"; path = "EasyPeasy/PositionAttribute+AppKit.swift"; sourceTree = "<group>"; };
+		4848782C1F4384061C12025EAF573D41 /* PayWandModelProtocols-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandModelProtocols-prefix.pch"; sourceTree = "<group>"; };
 		49B8D045E6000BA50F03891D7579D30D /* Pods-TtroPopViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TtroPopViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A0344E2AC9A91ECB47535FE07773AAF /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
-		4B179E7B67438055435C28AA1F806EFB /* EasyPeasy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EasyPeasy.modulemap; sourceTree = "<group>"; };
-		4BA84F47319995BED59A9D47D238A80F /* TtroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TtroTextField.swift; sourceTree = "<group>"; };
-		4E978873855136B75535D8A5439F8F12 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = EasyPeasy/Priority.swift; sourceTree = "<group>"; };
-		55DF99EC181E63D97C68C9474E672F9C /* APCustomBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APCustomBlurView.swift; sourceTree = "<group>"; };
-		5769A739C1BC09C0A99A205533473B46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A5C8673CBFB5F6D5CC34BFE3495DBCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4C0E82227417C7FD2C8D442D64861597 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = EasyPeasy/Constant.swift; sourceTree = "<group>"; };
+		4F41813989BBD35C8F91F4F6A32398F3 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = SwiftyButton/Utils.swift; sourceTree = "<group>"; };
+		50F09B51B2D4A4B17088C4C0C5D97DE4 /* PositionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+UIKit.swift"; path = "EasyPeasy/PositionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		513D8EEAB155072C1E55EC502DEB89DB /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
+		5CDE35662D35BC50723130437E148AAD /* EasyPeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPeasy-dummy.m"; sourceTree = "<group>"; };
 		5D1F7FE787D6471C4C27E0339790E982 /* Pods-TtroPopViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TtroPopViewTests-dummy.m"; sourceTree = "<group>"; };
-		5D2D7E26B890CDC2BBF90672F85644C2 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyPeasy.framework; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DB3A8669254D1CC9EFC98B5A500AD6A /* Pods_TtroPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TtroPopView.framework; path = "Pods-TtroPopView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FD48D6CE3F5F90CA57A87AE38F246E3 /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = EasyPeasy/Constant.swift; sourceTree = "<group>"; };
-		6480C84A3C99FB88F14335BB5A067A42 /* DimensionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+AppKit.swift"; path = "EasyPeasy/DimensionAttribute+AppKit.swift"; sourceTree = "<group>"; };
-		678DBC5D9B77311B5D772684CD0C26F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BB27BC7ED6C53FB340E5077D348D211 /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
-		6BFF802CE58F570F2C0C79A1D14B17DB /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = EasyPeasy/Item.swift; sourceTree = "<group>"; };
+		5EF963763FBF667255BA261BA4EB74F6 /* TtroLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TtroLabel.swift; path = PayWandBasicElements/TtroLabel.swift; sourceTree = "<group>"; };
+		5F113366FDF54E6C1EC5857FF12DE113 /* DimensionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimensionAttribute.swift; path = EasyPeasy/DimensionAttribute.swift; sourceTree = "<group>"; };
+		646E062539AAEF19883E5F247AE501DC /* CompoundAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundAttribute.swift; path = EasyPeasy/CompoundAttribute.swift; sourceTree = "<group>"; };
+		6623F05D73D9B4A0DAB604BE3BA4C914 /* PayWandModelProtocols-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayWandModelProtocols-dummy.m"; sourceTree = "<group>"; };
+		6ACD448AA4E1B46E9C4665CEA512F924 /* PayWandBasicElements.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PayWandBasicElements.modulemap; sourceTree = "<group>"; };
+		6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C5873521B27DDD481E2133192B3B603 /* Pods-TtroPopViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TtroPopViewTests-frameworks.sh"; sourceTree = "<group>"; };
-		6F9D12947F2397B4D5F444413F0FAB50 /* PayWandBasicElements.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PayWandBasicElements.modulemap; sourceTree = "<group>"; };
-		6FC98C9B59DAC5F133333539ED3A575E /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		74C50416E7FCA052157B9D1978434D47 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A9B9CD36C3FDB6263A5719197040554 /* DimensionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+UIKit.swift"; path = "EasyPeasy/DimensionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		6DCFF251868FA721552BBC32AA2B8CE1 /* APCustomBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APCustomBlurView.swift; path = PayWandBasicElements/APCustomBlurView.swift; sourceTree = "<group>"; };
+		6FC3DD6EC848F3A1925ECF442DCDF60A /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
+		727F5D87C9F8E2A42D6C474CD2F871A5 /* MIT License */ = {isa = PBXFileReference; includeInIndex = 1; path = "MIT License"; sourceTree = "<group>"; };
+		74A6170A08297FD43110238680E539B9 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
 		7D0DAB54BDE74D9DDEBB2D171BCB774A /* Pods-TtroPopViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TtroPopViewTests.release.xcconfig"; sourceTree = "<group>"; };
-		7D199E8630B497C3A6F85870C62D1E91 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
-		7FDA84DB2E410BAEBB72A21A25DEF281 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEA300A351C70F17D83ED9E1A204C09 /* SwiftyButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyButton.xcconfig; sourceTree = "<group>"; };
-		807D8B0E6F29C19627A5E83B22601D08 /* DimensionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimensionAttribute.swift; path = EasyPeasy/DimensionAttribute.swift; sourceTree = "<group>"; };
-		834A9AB3C56125A54104528B895AF50F /* PositionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PositionAttribute+AppKit.swift"; path = "EasyPeasy/PositionAttribute+AppKit.swift"; sourceTree = "<group>"; };
-		846E1FE6FCF507659BE24F18DFCAD5C2 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		85B1E7BDBE03FF08248FD4C830A152EA /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B573659E5B4AC4A7997B196D4A7D209 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
-		8D2752314D6FE2CF4CAE1525C486B4FF /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB8446401560506836DA328FA84C7AF /* PayWandBasicElements-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandBasicElements-umbrella.h"; sourceTree = "<group>"; };
-		8E3D8CC23C3AC5779470CCFCC25BF7ED /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
-		8E5D4651A6F42DB921211F7D58E7CE29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4865F3433137FEAE76B94851938569 /* PayWandBasicElements.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayWandBasicElements.xcconfig; sourceTree = "<group>"; };
+		82D9D3ED021C44EED86277185F4B1241 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		82DD76738051D8E196287D74B055E320 /* ServerDataProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerDataProtocols.swift; path = PayWandModelProtocols/ServerDataProtocols.swift; sourceTree = "<group>"; };
+		845CB5DE3A94463915154E52F7A43134 /* EasyPeasy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-prefix.pch"; sourceTree = "<group>"; };
+		8AF578D106959F531655EBE2C2AD54C5 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		8BAC24F13DA666F736E06838B966F28E /* TtroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TtroTextField.swift; path = PayWandBasicElements/TtroTextField.swift; sourceTree = "<group>"; };
+		8D416781745B72105B3C7A9D900FE4D0 /* PayWandModelProtocols.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayWandModelProtocols.xcconfig; sourceTree = "<group>"; };
+		8F533198998F926A0F82E33917C66C1D /* DimensionAttribute+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+AppKit.swift"; path = "EasyPeasy/DimensionAttribute+AppKit.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A9B82A4666AC0783C10B5482F550525 /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = EasyPeasy/Attribute.swift; sourceTree = "<group>"; };
+		9719CC225DDA7C65EA54BC01BEED0C85 /* PayWandModelProtocols-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandModelProtocols-umbrella.h"; sourceTree = "<group>"; };
+		987879B23CBC0A43498304AEF8674A0F /* CoreDataProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataProtocols.swift; path = PayWandModelProtocols/CoreDataProtocols.swift; sourceTree = "<group>"; };
+		9895C1C84374477A4CE4108A9EE77259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D2BE78252B79A7417B18D4686660DD2 /* Pods-TtroPopView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TtroPopView-resources.sh"; sourceTree = "<group>"; };
+		9E660CD2290E55A1D4DDD24DEE27DAA2 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		9FD0D52E374B3FAEA271D25002DB8867 /* EasyPeasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyPeasy.framework; path = EasyPeasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ABE9E81794DC6A7BCD49462EA02FBD /* SwiftyButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyButton.modulemap; sourceTree = "<group>"; };
+		A39C98848C6EAB7809A094D31C7AE290 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A813287074321FBC64F2F2026111D1 /* Pods-TtroPopViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TtroPopViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A686346CE2E9EC65BA60FB32D4E57F9B /* EasyPeasy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyPeasy-umbrella.h"; sourceTree = "<group>"; };
-		AB2AF3219A55DFF79A833A6CD71A6705 /* SwiftyButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyButton-dummy.m"; sourceTree = "<group>"; };
-		AB751A40F5BC066359E4C00068721787 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		ABA811D27DA03F4841B168A1A43DB290 /* NSView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSView+Easy.swift"; path = "EasyPeasy/NSView+Easy.swift"; sourceTree = "<group>"; };
-		AE9DDB3221FCF5773CCC421126F9B2F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEA92B83CD3D32B0FD5DF2A7CE3143CF /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
-		AEBF92BC71693E6E968F5D20E6139470 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B093C6AB042FACEED06855CE4FC248E2 /* TtroLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TtroLabel.swift; sourceTree = "<group>"; };
-		B11E6B31A3C3C00BF6D2F3AE2B21FCFB /* SwiftyButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-prefix.pch"; sourceTree = "<group>"; };
-		B253C8CE42EB41A63673F2A3870EF02A /* TtroDigitEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TtroDigitEntry.swift; sourceTree = "<group>"; };
+		A916D6DFBABBA00916ECB9E7FBE63DF1 /* PressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PressableButton.swift; path = SwiftyButton/PressableButton.swift; sourceTree = "<group>"; };
+		AA1814E688811331A130E8E4BBE6554D /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		AD24D20E6A53484BFFD2D3E29CCF6461 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		AD440B94A5034A3F08526F1932F4A171 /* PayWandBasicElements.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PayWandBasicElements.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADF9E7F9B803DA719E04F06E6CC076F5 /* Item.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Item.swift; path = EasyPeasy/Item.swift; sourceTree = "<group>"; };
+		B7D45FC776B02F64CA909F71A368EDE7 /* Item+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+UIKit.swift"; path = "EasyPeasy/Item+UIKit.swift"; sourceTree = "<group>"; };
 		B7F3B7AFA55D87AFA43DA21A986BB98B /* Pods-TtroPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TtroPopView.debug.xcconfig"; sourceTree = "<group>"; };
-		B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BBB31763A8D38B4E9E077B2A129C12D0 /* PayWandBasicElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandBasicElements-prefix.pch"; sourceTree = "<group>"; };
-		C10A34F82B36DE560A8406B65BF6D99C /* NSLayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutGuide+Easy.swift"; path = "EasyPeasy/NSLayoutGuide+Easy.swift"; sourceTree = "<group>"; };
-		C2EE8B61A93DE06D0C28D56D45E16A30 /* Item+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+UIKit.swift"; path = "EasyPeasy/Item+UIKit.swift"; sourceTree = "<group>"; };
-		C87F2729EF0F4119520142499987156E /* UILayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutGuide+Easy.swift"; path = "EasyPeasy/UILayoutGuide+Easy.swift"; sourceTree = "<group>"; };
+		B9E1E9C6D2ABACD9391BAAADFB80040D /* PayWandBasicElements-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandBasicElements-umbrella.h"; sourceTree = "<group>"; };
+		B9E9742E13AEAC19D75FBF317304EE36 /* EasyPeasy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPeasy.xcconfig; sourceTree = "<group>"; };
+		C1F501826B400BADD56802BFE89CD27B /* UIView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Easy.swift"; path = "EasyPeasy/UIView+Easy.swift"; sourceTree = "<group>"; };
+		C2A5ADCDD99B52A00D9924F1A9DA4F47 /* DimensionAttribute+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DimensionAttribute+UIKit.swift"; path = "EasyPeasy/DimensionAttribute+UIKit.swift"; sourceTree = "<group>"; };
+		C5602D3EB04F49709261F7647F09C2FF /* NSLayoutGuide+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutGuide+Easy.swift"; path = "EasyPeasy/NSLayoutGuide+Easy.swift"; sourceTree = "<group>"; };
 		C8D48D66914418D1DEE2CF5DA1EA1901 /* Pods-TtroPopViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TtroPopViewTests-resources.sh"; sourceTree = "<group>"; };
-		C96D33E5ABE6C02B086F2E95B5B25720 /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
-		CA8CE1B502B7AE94D67D33F64750272B /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
-		CBC0A5099DF83522CC488AA867496DDA /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
-		CE663E4B5C2A5D515F27E78F56619B3C /* CompoundAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompoundAttribute.swift; path = EasyPeasy/CompoundAttribute.swift; sourceTree = "<group>"; };
-		D174730970B4A2FD5CBAFF66002A49C7 /* TtroButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TtroButton.swift; sourceTree = "<group>"; };
+		CB5CCA9D96C8DA5F057FDA51BFA243B9 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = EasyPeasy/Priority.swift; sourceTree = "<group>"; };
+		CC531FAA7DDD2E73D4026B46C4F74E5B /* PayWandBasicElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PayWandBasicElements.framework; path = PayWandBasicElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FE10A25F34A541453ED984A6C92B6C /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = EasyPeasy/Attribute.swift; sourceTree = "<group>"; };
 		D33592F6F8A8A12D6DE5B3F4B284C9D2 /* Pods-TtroPopViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TtroPopViewTests.modulemap"; sourceTree = "<group>"; };
-		D91104ECD21A7A3061C7C9DDC6D610B4 /* EasyPeasy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyPeasy.xcconfig; sourceTree = "<group>"; };
-		DD05720258997143EC5AADDD36F7CE0F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D3727F9C9E113521595980365A9ADC77 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AB823CB015D26D8236713FCF2B68DD /* Pods_TtroPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TtroPopView.framework; path = "Pods-TtroPopView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E9198C6FD8FA01E04347E3F7C44A8B /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD37D20D5778DEBDBED1CB2D731970B7 /* PayWandModelProtocols.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PayWandModelProtocols.modulemap; sourceTree = "<group>"; };
 		E1CF6312C8332650A7AA3CCDA405275E /* Pods-TtroPopView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TtroPopView-acknowledgements.plist"; sourceTree = "<group>"; };
+		E27AEC1D48C9BB0BC530E9EF2C1E58EB /* PayWandBasicElements-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayWandBasicElements-prefix.pch"; sourceTree = "<group>"; };
+		E3A277068E0C3FE6758FF493486077E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55EDDE4B74618D7B3B5AADA3A5B15A1 /* Pods-TtroPopViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TtroPopViewTests-umbrella.h"; sourceTree = "<group>"; };
-		E87021A631413355A2EE23A8BF99072A /* PayWandBasicElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PayWandBasicElements.framework; path = PayWandBasicElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74EBB0961B3455BC1F75D751D13E7D6 /* Item+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Item+AppKit.swift"; path = "EasyPeasy/Item+AppKit.swift"; sourceTree = "<group>"; };
+		E9DF75238DB625DDB8322E14C2F7B667 /* CustomPressableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPressableButton.swift; path = SwiftyButton/CustomPressableButton.swift; sourceTree = "<group>"; };
+		ED27EC8FBF769EFCDE2C1214BA072429 /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = SwiftyButton/FlatButton.swift; sourceTree = "<group>"; };
+		ED64BB8394637686542A312703B5F996 /* SwiftyButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyButton-umbrella.h"; sourceTree = "<group>"; };
+		EE45A3261D8BF5A991F80195162D5A3B /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
 		EFE8AA0952625433BF2411B74FF332A3 /* Pods-TtroPopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TtroPopView.modulemap"; sourceTree = "<group>"; };
-		F03EC910C4A924E9D0B80BABBD497B81 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
 		F06A0FCC554BC466093CCBC6D0C2D9D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C6C0F297144E97DBDA727873CF2895 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = EasyPeasy/Node.swift; sourceTree = "<group>"; };
 		F13E3ED89AE82E6C1A66E2AB0FA15D0F /* Pods-TtroPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TtroPopView-dummy.m"; sourceTree = "<group>"; };
-		F2556DFDDEE935120FC39A07BB4DF3EA /* UIView+Easy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Easy.swift"; path = "EasyPeasy/UIView+Easy.swift"; sourceTree = "<group>"; };
 		F2EFBCFCBAF972F11966F7E3430F811D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F991D62C0A9AC9BB8E05DD809A8F7775 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = EasyPeasy/Node.swift; sourceTree = "<group>"; };
-		FCE82743A329FC0E4CD0AD38ABE5DFF5 /* PositionAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PositionAttribute.swift; path = EasyPeasy/PositionAttribute.swift; sourceTree = "<group>"; };
-		FD05C2618272817579DE214A194A6D49 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		FD98FFF43FD4ADAC8415C39FE38D8877 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		FE710006D2CD214E2AB5DCEFEB4107AC /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
-		FFA1E23324DF9B3EF08555A06DF0EF77 /* EasyPeasy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyPeasy-dummy.m"; sourceTree = "<group>"; };
+		FAE60BB7DD88C9808B4C2224D976658D /* Pods_TtroPopViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TtroPopViewTests.framework; path = "Pods-TtroPopViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22E64FA70E9DF60DB7FCCA890CCF0879 /* Frameworks */ = {
+		0D63AA30F1AA17685919B63E37FE8A9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				637AECF468E9AFA67663A6FE12D670B7 /* Foundation.framework in Frameworks */,
-				35550F0F2D3072F048821AA8567F7C14 /* UIKit.framework in Frameworks */,
+				BF5EE4741002190818E6877862659E43 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48CD6200AC1918341727C36CB85E62C5 /* Frameworks */ = {
+		11293B51DE662D372FC326EB93B4D7EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1277975DE0C5DF1EA60CA33DA4EA54DB /* Foundation.framework in Frameworks */,
+				0CD548F1926734383FB54EC0C28B10D4 /* Foundation.framework in Frameworks */,
+				044D06165993B6047891C61116C20E2D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D939A1EB1BEFBABFB75E708B18E7236 /* Frameworks */ = {
+		32984E1594B2836944EC12A3DDEA7DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC98CD86D69D7E824DC8A52602CE731 /* Foundation.framework in Frameworks */,
-				D3BA3D1B8D62D17B6F721B8D550570D9 /* PureLayout.framework in Frameworks */,
-				1852FB3D090CE6BC4E82D5E6C4B30592 /* UIKit.framework in Frameworks */,
+				97151EF53C7E9F9CC5C31496DAE968EE /* Foundation.framework in Frameworks */,
+				333EE66784BA70957630E22F28DD96B1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		707AC0B1B4461CE6629737959E76E959 /* Frameworks */ = {
+		C357057643A88D07F325D750892D205B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2A8CB1C1E8A95904D20134E3154191 /* EasyPeasy.framework in Frameworks */,
-				B7556966881E82AA8A9CFA621017A86A /* Foundation.framework in Frameworks */,
-				2422F1C5ED696FBFE3C9CCC92F23A8E3 /* SwiftyButton.framework in Frameworks */,
-				F12440C59BCC14AB45EEE2651323876C /* UIColor_Hex_Swift.framework in Frameworks */,
+				F8E2982015B1CCB65F69F32D47A8AFEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		988FD6C0DD546C6385D6558B885773F6 /* Frameworks */ = {
+		CCF6767CBD749998A95BDDBA182A267F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0768890904945343C17C77E9D5AE4D3A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCD3F93B3F386D37C32EFC1624916AB9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC004421E3871FC04DC326A6A203577C /* Foundation.framework in Frameworks */,
+				B75E871106F4A60C902B51C75A9E9E91 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,121 +322,179 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDB236F3139700DAA77B89630C40382F /* Foundation.framework in Frameworks */,
+				24A8B73E4DA9132A2B15A20FA8E8D06A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF75FEC500DE4B383ACDAE155FEDB1A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182DAD6AA47D8AF9B0B46511B5071C72 /* EasyPeasy.framework in Frameworks */,
+				651EE477B8A94BAB8671AB4D6691F7D0 /* Foundation.framework in Frameworks */,
+				D511424315E489278BC544C9206A2869 /* PayWandModelProtocols.framework in Frameworks */,
+				463A1189A6FE4065B4A222BAA44AD7B8 /* SwiftyButton.framework in Frameworks */,
+				02A4C5A115A3B3B42425B0AF0F0BFCCF /* UIColor_Hex_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A996663B77C7D30FEA4F1D920652F06 /* iOS */ = {
+		00E5E95C221747A1A044CE16A0B4CC7C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B9D8900F985FB236D35F5A528AC23453 /* Foundation.framework */,
-				5769A739C1BC09C0A99A205533473B46 /* UIKit.framework */,
+				727F5D87C9F8E2A42D6C474CD2F871A5 /* MIT License */,
+				AD440B94A5034A3F08526F1932F4A171 /* PayWandBasicElements.podspec */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		1C83B8720AE6F11243B90960AABC8564 /* Development Pods */ = {
+		07D0642731EE030D579A9C6B5776F3A8 /* SwiftyButton */ = {
 			isa = PBXGroup;
 			children = (
-				6B054871B00C596ADC5E8BB3FA292F33 /* PayWandBasicElements */,
+				E9DF75238DB625DDB8322E14C2F7B667 /* CustomPressableButton.swift */,
+				ED27EC8FBF769EFCDE2C1214BA072429 /* FlatButton.swift */,
+				A916D6DFBABBA00916ECB9E7FBE63DF1 /* PressableButton.swift */,
+				4F41813989BBD35C8F91F4F6A32398F3 /* Utils.swift */,
+				42E2E97DD487CB45617E4F26BC70B775 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = SwiftyButton;
+			path = SwiftyButton;
 			sourceTree = "<group>";
 		};
-		32FC4C9B61F9F6A41A03752AAF0CDFC6 /* Frameworks */ = {
+		0E86B4DB25759FA2B5D66BF50ABE9038 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D2752314D6FE2CF4CAE1525C486B4FF /* EasyPeasy.framework */,
-				448313FCB0C93ED5064E0ABF8479B3A0 /* PureLayout.framework */,
-				19D849431E4476C0689CC7B592153613 /* SwiftyButton.framework */,
-				7FDA84DB2E410BAEBB72A21A25DEF281 /* UIColor_Hex_Swift.framework */,
-				1A996663B77C7D30FEA4F1D920652F06 /* iOS */,
+				256AE3E70B6E393338C6D0A2D6C5FD94 /* Info.plist */,
+				DD37D20D5778DEBDBED1CB2D731970B7 /* PayWandModelProtocols.modulemap */,
+				8D416781745B72105B3C7A9D900FE4D0 /* PayWandModelProtocols.xcconfig */,
+				6623F05D73D9B4A0DAB604BE3BA4C914 /* PayWandModelProtocols-dummy.m */,
+				4848782C1F4384061C12025EAF573D41 /* PayWandModelProtocols-prefix.pch */,
+				9719CC225DDA7C65EA54BC01BEED0C85 /* PayWandModelProtocols-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../TtroPopView/Pods/Target Support Files/PayWandModelProtocols";
 			sourceTree = "<group>";
 		};
-		47B13ABE35615AF5CB4542A3A7BA5CA5 /* Products */ = {
+		28315FD2409D925A948FF4AA6C191206 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5D2D7E26B890CDC2BBF90672F85644C2 /* EasyPeasy.framework */,
-				E87021A631413355A2EE23A8BF99072A /* PayWandBasicElements.framework */,
-				5DB3A8669254D1CC9EFC98B5A500AD6A /* Pods_TtroPopView.framework */,
-				1B68DA71C27F49C16B8470A5C2CC118F /* Pods_TtroPopViewTests.framework */,
-				85B1E7BDBE03FF08248FD4C830A152EA /* PureLayout.framework */,
-				21596AC2F2B6EB78FBBB320AF8B0D254 /* SwiftyButton.framework */,
-				74C50416E7FCA052157B9D1978434D47 /* UIColor_Hex_Swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6164D154385FDCF929F4D6370CEEBBB1 /* PureLayout */ = {
-			isa = PBXGroup;
-			children = (
-				AB751A40F5BC066359E4C00068721787 /* ALView+PureLayout.h */,
-				FD98FFF43FD4ADAC8415C39FE38D8877 /* ALView+PureLayout.m */,
-				05CBFD899F5B265D781CFD7ED40C84F5 /* NSArray+PureLayout.h */,
-				F03EC910C4A924E9D0B80BABBD497B81 /* NSArray+PureLayout.m */,
-				24907F57042E53F9BDAB6437FFECEDEF /* NSLayoutConstraint+PureLayout.h */,
-				FD05C2618272817579DE214A194A6D49 /* NSLayoutConstraint+PureLayout.m */,
-				6FC98C9B59DAC5F133333539ED3A575E /* PureLayout.h */,
-				DD05720258997143EC5AADDD36F7CE0F /* PureLayout+Internal.h */,
-				1DF8ED924A9E56C1E60671F9CF3272BF /* PureLayoutDefines.h */,
-				766F8882AD0D0DB979FAF648B7DD49C5 /* Support Files */,
-			);
-			name = PureLayout;
-			path = PureLayout;
-			sourceTree = "<group>";
-		};
-		6A8E29F258A0ED6FC371E5C81B82F368 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CD166C5F892A9CFE39C0EC5217EB4ACF /* EasyPeasy */,
-				6164D154385FDCF929F4D6370CEEBBB1 /* PureLayout */,
-				95F88AE6D086DDA82FC3C9B337836BAE /* SwiftyButton */,
-				E3F5A3825CB58E329D0BB59F69D94D57 /* UIColor_Hex_Swift */,
+				61F6BF9D99CFEA451649371CEE8AC93D /* EasyPeasy */,
+				07D0642731EE030D579A9C6B5776F3A8 /* SwiftyButton */,
+				831E888DFAAA9CE770D3FDACD83AD7C6 /* UIColor_Hex_Swift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6B054871B00C596ADC5E8BB3FA292F33 /* PayWandBasicElements */ = {
+		3036079CED530868F3DD6EDF76452020 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C4B94F26A79E8DF3355E114EEA9F43DD /* PayWandBasicElements */,
-				F820ED2D1FFEBBD5B64CA77012D62689 /* Support Files */,
+				6AD5C0B600EA6E7997E419810BAE583A /* Foundation.framework */,
+				4A5C8673CBFB5F6D5CC34BFE3495DBCC /* UIKit.framework */,
 			);
-			name = PayWandBasicElements;
-			path = ../../PayWandBasicElements;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		7345E0AD4E557FDA07E643DE7F9CB332 /* Support Files */ = {
+		326F9D3CE9F547CD158CFD3EE6381104 /* PayWandModelProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				8E5D4651A6F42DB921211F7D58E7CE29 /* Info.plist */,
-				6BB27BC7ED6C53FB340E5077D348D211 /* SwiftyButton.modulemap */,
-				7FEA300A351C70F17D83ED9E1A204C09 /* SwiftyButton.xcconfig */,
-				AB2AF3219A55DFF79A833A6CD71A6705 /* SwiftyButton-dummy.m */,
-				B11E6B31A3C3C00BF6D2F3AE2B21FCFB /* SwiftyButton-prefix.pch */,
-				CA8CE1B502B7AE94D67D33F64750272B /* SwiftyButton-umbrella.h */,
+				987879B23CBC0A43498304AEF8674A0F /* CoreDataProtocols.swift */,
+				82DD76738051D8E196287D74B055E320 /* ServerDataProtocols.swift */,
+				64E45E1416276583B69472BB084D562C /* Pod */,
+				0E86B4DB25759FA2B5D66BF50ABE9038 /* Support Files */,
+			);
+			name = PayWandModelProtocols;
+			path = ../../PayWandModelProtocols;
+			sourceTree = "<group>";
+		};
+		3CF3DB32034F30090065E8096DFC3569 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E63217A38BF8D8841A377844A641754 /* PayWandBasicElements */,
+				326F9D3CE9F547CD158CFD3EE6381104 /* PayWandModelProtocols */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42E2E97DD487CB45617E4F26BC70B775 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB27D9DAB18B4406F5861EE1352842C /* Info.plist */,
+				A1ABE9E81794DC6A7BCD49462EA02FBD /* SwiftyButton.modulemap */,
+				513D8EEAB155072C1E55EC502DEB89DB /* SwiftyButton.xcconfig */,
+				1E6A0B87EE4EDC629E54816E41487E47 /* SwiftyButton-dummy.m */,
+				6FC3DD6EC848F3A1925ECF442DCDF60A /* SwiftyButton-prefix.pch */,
+				ED64BB8394637686542A312703B5F996 /* SwiftyButton-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftyButton";
 			sourceTree = "<group>";
 		};
-		766F8882AD0D0DB979FAF648B7DD49C5 /* Support Files */ = {
+		61F6BF9D99CFEA451649371CEE8AC93D /* EasyPeasy */ = {
 			isa = PBXGroup;
 			children = (
-				AEBF92BC71693E6E968F5D20E6139470 /* Info.plist */,
-				846E1FE6FCF507659BE24F18DFCAD5C2 /* PureLayout.modulemap */,
-				CBC0A5099DF83522CC488AA867496DDA /* PureLayout.xcconfig */,
-				467951529B77A97B65EE60BA4ACF4345 /* PureLayout-dummy.m */,
-				342F0ED1B0F478B101F42188EB7C25AF /* PureLayout-prefix.pch */,
-				AEA92B83CD3D32B0FD5DF2A7CE3143CF /* PureLayout-umbrella.h */,
+				D1FE10A25F34A541453ED984A6C92B6C /* Attribute.swift */,
+				646E062539AAEF19883E5F247AE501DC /* CompoundAttribute.swift */,
+				4C0E82227417C7FD2C8D442D64861597 /* Constant.swift */,
+				3C498C72799C889C8482D7FE3EB530C4 /* Context.swift */,
+				5F113366FDF54E6C1EC5857FF12DE113 /* DimensionAttribute.swift */,
+				8F533198998F926A0F82E33917C66C1D /* DimensionAttribute+AppKit.swift */,
+				C2A5ADCDD99B52A00D9924F1A9DA4F47 /* DimensionAttribute+UIKit.swift */,
+				ADF9E7F9B803DA719E04F06E6CC076F5 /* Item.swift */,
+				E74EBB0961B3455BC1F75D751D13E7D6 /* Item+AppKit.swift */,
+				B7D45FC776B02F64CA909F71A368EDE7 /* Item+UIKit.swift */,
+				F0C6C0F297144E97DBDA727873CF2895 /* Node.swift */,
+				C5602D3EB04F49709261F7647F09C2FF /* NSLayoutGuide+Easy.swift */,
+				380787BD288B65F01E07088039819A6C /* NSView+Easy.swift */,
+				EE45A3261D8BF5A991F80195162D5A3B /* PositionAttribute.swift */,
+				44F74FA7550C4039E13312DE1CCA2ECF /* PositionAttribute+AppKit.swift */,
+				50F09B51B2D4A4B17088C4C0C5D97DE4 /* PositionAttribute+UIKit.swift */,
+				CB5CCA9D96C8DA5F057FDA51BFA243B9 /* Priority.swift */,
+				14379BA8EB59C9B5438D2D354DE79183 /* ReferenceAttribute.swift */,
+				039E96833852AA2FEEE13FB995ADF26A /* UILayoutGuide+Easy.swift */,
+				C1F501826B400BADD56802BFE89CD27B /* UIView+Easy.swift */,
+				8036295DBC2B511C1271B04C6A3FEC3C /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
+			name = EasyPeasy;
+			path = EasyPeasy;
+			sourceTree = "<group>";
+		};
+		64E45E1416276583B69472BB084D562C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0FA44E70ADE97CCE29ABC1B15D9B32CC /* MIT License */,
+				1461A2E54F2C602F77F939FBE5E88AF4 /* PayWandModelProtocols.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E63217A38BF8D8841A377844A641754 /* PayWandBasicElements */ = {
+			isa = PBXGroup;
+			children = (
+				6DCFF251868FA721552BBC32AA2B8CE1 /* APCustomBlurView.swift */,
+				3833BA4BAABE3EA28EE8098BEFB76FF8 /* Extensions.swift */,
+				24D0888EC0DB61FBA6CE81539CB21278 /* TtroButton.swift */,
+				2A653C761136D215F407AC5C7C71D905 /* TtroDigitEntry.swift */,
+				5EF963763FBF667255BA261BA4EB74F6 /* TtroLabel.swift */,
+				8BAC24F13DA666F736E06838B966F28E /* TtroTextField.swift */,
+				00E5E95C221747A1A044CE16A0B4CC7C /* Pod */,
+				895FD6F3C6FADD30DCCB96E416C46CA6 /* Support Files */,
+			);
+			name = PayWandBasicElements;
+			path = ../../PayWandBasicElements;
+			sourceTree = "<group>";
+		};
+		711F1D5D8F8904A8E8EBE57714D89E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1843E3C2599A668E1002FB0E0EB56E20 /* EasyPeasy.framework */,
+				2B5A6A18622F0ED8C71A14AC33015AFC /* PayWandModelProtocols.framework */,
+				2F838D9A66D54BB003BC6636AC135D07 /* SwiftyButton.framework */,
+				D8E9198C6FD8FA01E04347E3F7C44A8B /* UIColor_Hex_Swift.framework */,
+				3036079CED530868F3DD6EDF76452020 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		78A537825F42F85B76178EDD17238DF9 /* Targets Support Files */ = {
@@ -472,89 +510,65 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1C83B8720AE6F11243B90960AABC8564 /* Development Pods */,
-				32FC4C9B61F9F6A41A03752AAF0CDFC6 /* Frameworks */,
-				6A8E29F258A0ED6FC371E5C81B82F368 /* Pods */,
-				47B13ABE35615AF5CB4542A3A7BA5CA5 /* Products */,
+				3CF3DB32034F30090065E8096DFC3569 /* Development Pods */,
+				711F1D5D8F8904A8E8EBE57714D89E45 /* Frameworks */,
+				28315FD2409D925A948FF4AA6C191206 /* Pods */,
+				C790EF93EC2CB1C770E8CE329A7D24FC /* Products */,
 				78A537825F42F85B76178EDD17238DF9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		881970111ABBC9FFA9B410A52823445F /* Support Files */ = {
+		8036295DBC2B511C1271B04C6A3FEC3C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4B179E7B67438055435C28AA1F806EFB /* EasyPeasy.modulemap */,
-				D91104ECD21A7A3061C7C9DDC6D610B4 /* EasyPeasy.xcconfig */,
-				FFA1E23324DF9B3EF08555A06DF0EF77 /* EasyPeasy-dummy.m */,
-				2781152E1ACFC46B481A2F99FCCE0A50 /* EasyPeasy-prefix.pch */,
-				A686346CE2E9EC65BA60FB32D4E57F9B /* EasyPeasy-umbrella.h */,
-				3F51BF9A052E540C36D235DC91DEB53B /* Info.plist */,
+				25228FA5D76A8D6E4197811BF7D17AFC /* EasyPeasy.modulemap */,
+				B9E9742E13AEAC19D75FBF317304EE36 /* EasyPeasy.xcconfig */,
+				5CDE35662D35BC50723130437E148AAD /* EasyPeasy-dummy.m */,
+				845CB5DE3A94463915154E52F7A43134 /* EasyPeasy-prefix.pch */,
+				14E0D72F7F139D01C9DAFF6AB6537815 /* EasyPeasy-umbrella.h */,
+				E3A277068E0C3FE6758FF493486077E2 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/EasyPeasy";
 			sourceTree = "<group>";
 		};
-		95F88AE6D086DDA82FC3C9B337836BAE /* SwiftyButton */ = {
+		831E888DFAAA9CE770D3FDACD83AD7C6 /* UIColor_Hex_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				3D04B24893CA482755C00E4B6C4EE47F /* SwiftyButton.swift */,
-				2CA63E48018BF4194BE50FC3687E5D63 /* SwiftyButton+ResizableImage.swift */,
-				AD5002E8F51A9C2A9C05370C5C35199A /* CustomContent */,
-				7345E0AD4E557FDA07E643DE7F9CB332 /* Support Files */,
+				74A6170A08297FD43110238680E539B9 /* HEXColor.h */,
+				8AF578D106959F531655EBE2C2AD54C5 /* UIColorExtension.swift */,
+				F35D1B584E995FA88850625FD7157302 /* Support Files */,
 			);
-			name = SwiftyButton;
-			path = SwiftyButton;
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
 			sourceTree = "<group>";
 		};
-		AD5002E8F51A9C2A9C05370C5C35199A /* CustomContent */ = {
+		895FD6F3C6FADD30DCCB96E416C46CA6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31E1F8CAB187828CEB42E110B2DB0B98 /* SwiftyCustomContentButton.swift */,
+				9895C1C84374477A4CE4108A9EE77259 /* Info.plist */,
+				6ACD448AA4E1B46E9C4665CEA512F924 /* PayWandBasicElements.modulemap */,
+				7E4865F3433137FEAE76B94851938569 /* PayWandBasicElements.xcconfig */,
+				05DEBC598F2CD30FC9ECF3F914A9E41F /* PayWandBasicElements-dummy.m */,
+				E27AEC1D48C9BB0BC530E9EF2C1E58EB /* PayWandBasicElements-prefix.pch */,
+				B9E1E9C6D2ABACD9391BAAADFB80040D /* PayWandBasicElements-umbrella.h */,
 			);
-			name = CustomContent;
+			name = "Support Files";
+			path = "../TtroPopView/Pods/Target Support Files/PayWandBasicElements";
 			sourceTree = "<group>";
 		};
-		C4B94F26A79E8DF3355E114EEA9F43DD /* PayWandBasicElements */ = {
+		C790EF93EC2CB1C770E8CE329A7D24FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55DF99EC181E63D97C68C9474E672F9C /* APCustomBlurView.swift */,
-				45A3ABED3E49C3A3A4BC146B0F7DAFD8 /* Extensions.swift */,
-				D174730970B4A2FD5CBAFF66002A49C7 /* TtroButton.swift */,
-				B253C8CE42EB41A63673F2A3870EF02A /* TtroDigitEntry.swift */,
-				B093C6AB042FACEED06855CE4FC248E2 /* TtroLabel.swift */,
-				4BA84F47319995BED59A9D47D238A80F /* TtroTextField.swift */,
+				9FD0D52E374B3FAEA271D25002DB8867 /* EasyPeasy.framework */,
+				CC531FAA7DDD2E73D4026B46C4F74E5B /* PayWandBasicElements.framework */,
+				0AD50B59E06D1FFE584A289088918C82 /* PayWandModelProtocols.framework */,
+				D4AB823CB015D26D8236713FCF2B68DD /* Pods_TtroPopView.framework */,
+				FAE60BB7DD88C9808B4C2224D976658D /* Pods_TtroPopViewTests.framework */,
+				3ED77C7A38EC643CBD02C649CFF5E095 /* SwiftyButton.framework */,
+				A39C98848C6EAB7809A094D31C7AE290 /* UIColor_Hex_Swift.framework */,
 			);
-			name = PayWandBasicElements;
-			path = PayWandBasicElements;
-			sourceTree = "<group>";
-		};
-		CD166C5F892A9CFE39C0EC5217EB4ACF /* EasyPeasy */ = {
-			isa = PBXGroup;
-			children = (
-				9A9B82A4666AC0783C10B5482F550525 /* Attribute.swift */,
-				CE663E4B5C2A5D515F27E78F56619B3C /* CompoundAttribute.swift */,
-				5FD48D6CE3F5F90CA57A87AE38F246E3 /* Constant.swift */,
-				0529F48124D42CDBDD7DC068ACE8D7BD /* Context.swift */,
-				807D8B0E6F29C19627A5E83B22601D08 /* DimensionAttribute.swift */,
-				6480C84A3C99FB88F14335BB5A067A42 /* DimensionAttribute+AppKit.swift */,
-				7A9B9CD36C3FDB6263A5719197040554 /* DimensionAttribute+UIKit.swift */,
-				6BFF802CE58F570F2C0C79A1D14B17DB /* Item.swift */,
-				15177EFDC72809A153511C0ED7C7391B /* Item+AppKit.swift */,
-				C2EE8B61A93DE06D0C28D56D45E16A30 /* Item+UIKit.swift */,
-				F991D62C0A9AC9BB8E05DD809A8F7775 /* Node.swift */,
-				C10A34F82B36DE560A8406B65BF6D99C /* NSLayoutGuide+Easy.swift */,
-				ABA811D27DA03F4841B168A1A43DB290 /* NSView+Easy.swift */,
-				FCE82743A329FC0E4CD0AD38ABE5DFF5 /* PositionAttribute.swift */,
-				834A9AB3C56125A54104528B895AF50F /* PositionAttribute+AppKit.swift */,
-				0423AEBBBD232868ACD36843C7AE957F /* PositionAttribute+UIKit.swift */,
-				4E978873855136B75535D8A5439F8F12 /* Priority.swift */,
-				26715E4823430C20A5D2C3B5D71294B1 /* ReferenceAttribute.swift */,
-				C87F2729EF0F4119520142499987156E /* UILayoutGuide+Easy.swift */,
-				F2556DFDDEE935120FC39A07BB4DF3EA /* UIView+Easy.swift */,
-				881970111ABBC9FFA9B410A52823445F /* Support Files */,
-			);
-			name = EasyPeasy;
-			path = EasyPeasy;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D1C97B4A8F29D5E725BBA915EC45975D /* Pods-TtroPopView */ = {
@@ -592,62 +606,44 @@
 			path = "Target Support Files/Pods-TtroPopViewTests";
 			sourceTree = "<group>";
 		};
-		DC9D17D3EB78FB147A398F0ABB7F6B49 /* Support Files */ = {
+		F35D1B584E995FA88850625FD7157302 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				678DBC5D9B77311B5D772684CD0C26F7 /* Info.plist */,
-				7D199E8630B497C3A6F85870C62D1E91 /* UIColor_Hex_Swift.modulemap */,
-				C96D33E5ABE6C02B086F2E95B5B25720 /* UIColor_Hex_Swift.xcconfig */,
-				8B573659E5B4AC4A7997B196D4A7D209 /* UIColor_Hex_Swift-dummy.m */,
-				FE710006D2CD214E2AB5DCEFEB4107AC /* UIColor_Hex_Swift-prefix.pch */,
-				8E3D8CC23C3AC5779470CCFCC25BF7ED /* UIColor_Hex_Swift-umbrella.h */,
+				D3727F9C9E113521595980365A9ADC77 /* Info.plist */,
+				82D9D3ED021C44EED86277185F4B1241 /* UIColor_Hex_Swift.modulemap */,
+				AA1814E688811331A130E8E4BBE6554D /* UIColor_Hex_Swift.xcconfig */,
+				AD24D20E6A53484BFFD2D3E29CCF6461 /* UIColor_Hex_Swift-dummy.m */,
+				9E660CD2290E55A1D4DDD24DEE27DAA2 /* UIColor_Hex_Swift-prefix.pch */,
+				251236EBD0C63D0A4A529A532C9AB713 /* UIColor_Hex_Swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UIColor_Hex_Swift";
 			sourceTree = "<group>";
 		};
-		E3F5A3825CB58E329D0BB59F69D94D57 /* UIColor_Hex_Swift */ = {
-			isa = PBXGroup;
-			children = (
-				4A0344E2AC9A91ECB47535FE07773AAF /* HEXColor.h */,
-				1C59926DCEF77984C0936B7EF4C7E86A /* UIColorExtension.swift */,
-				DC9D17D3EB78FB147A398F0ABB7F6B49 /* Support Files */,
-			);
-			name = UIColor_Hex_Swift;
-			path = UIColor_Hex_Swift;
-			sourceTree = "<group>";
-		};
-		F820ED2D1FFEBBD5B64CA77012D62689 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE9DDB3221FCF5773CCC421126F9B2F0 /* Info.plist */,
-				6F9D12947F2397B4D5F444413F0FAB50 /* PayWandBasicElements.modulemap */,
-				467FCC17D81CB4EB55C82237D57A6BC5 /* PayWandBasicElements.xcconfig */,
-				3B03E99C556898E0F8BA7460EABF3949 /* PayWandBasicElements-dummy.m */,
-				BBB31763A8D38B4E9E077B2A129C12D0 /* PayWandBasicElements-prefix.pch */,
-				8DB8446401560506836DA328FA84C7AF /* PayWandBasicElements-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../TtroPopView/Pods/Target Support Files/PayWandBasicElements";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BE1B5EDE8487171034827BA4CB48963 /* Headers */ = {
+		082E42ECAB042DFA5B78E52BF15D7205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CC295E4383A5F0A07EA42CAE243276 /* PayWandBasicElements-umbrella.h in Headers */,
+				AAD0D472571F0BC278D872822F9D745B /* Pods-TtroPopView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EA9E9AE5BBCDE4EB1F4BB86D9717E2B /* Headers */ = {
+		480BC9AF9C2CE78002C8A2AFBFF76B6F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F56CCEAD85BF57AF7D00B2B34F1729 /* HEXColor.h in Headers */,
-				FB45CA1317275242EAE843BAB59D0F68 /* UIColor_Hex_Swift-umbrella.h in Headers */,
+				4372CCB77678A69D5FDE0FB7BDFF28BB /* Pods-TtroPopViewTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EE9BCD730BCB772C107257E77C2DAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68467F12ED16FE8D2F1EF0DF3796D11 /* SwiftyButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,136 +655,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		876E5984E17FAFE871C322C1D856C459 /* Headers */ = {
+		81E74DE86DB04BCCC5E64070C53D51E9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881ED268B3811258763249C94170E4C0 /* Pods-TtroPopView-umbrella.h in Headers */,
+				8468B41311BE5347972F7C6669D1C1B1 /* PayWandModelProtocols-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC7388E8E7113394B81E7D98615C0DFC /* Headers */ = {
+		A3AECFB7CCE21B49507AD6829A980F98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3F6E4C54884F1E28AF85795ACB1FB64 /* SwiftyButton-umbrella.h in Headers */,
+				64FAE975DEAFB808C31956D686E2C473 /* PayWandBasicElements-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC8B588B81AC47EF3A7A7C4CAC1277A2 /* Headers */ = {
+		F7C02D56C4FE1D5565FC97B257454EDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99276F788B7E64FDB66A9F6EE0102BBC /* Pods-TtroPopViewTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB861304A039E9D83854859B951AEBE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0B37F76060CCD8CB05A9958CBB9C143 /* ALView+PureLayout.h in Headers */,
-				DDA435B3FE27F50C8F7D2FB5899B324E /* NSArray+PureLayout.h in Headers */,
-				883A058B9815B3CFD89DDFDB1CAA0DA2 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				C7604258E5E7FD6C1659545514F34E85 /* PureLayout+Internal.h in Headers */,
-				61A5DBA8B391FC6F8FCB55A6DF698272 /* PureLayout-umbrella.h in Headers */,
-				8CB4FD30B0E4C10C3449F7F0263D1537 /* PureLayout.h in Headers */,
-				528852BBA10BDD4CF993006141B60763 /* PureLayoutDefines.h in Headers */,
+				162C3807D81862988EE66ABD75660490 /* HEXColor.h in Headers */,
+				9137FEF3AD339EABE017D459DCAE34E9 /* UIColor_Hex_Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1259A79E9C0160F09B8C80FBE4FA91D0 /* SwiftyButton */ = {
+		46E29289833BF606691737E8B5C93C3E /* UIColor_Hex_Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0010BDB5A9EE9086CA2AB7377D5C9BBF /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
+			buildConfigurationList = 2F17F75E4650281914CED3BE073E5523 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
 			buildPhases = (
-				96DDFC36ED330E997929F26B0AC71305 /* Sources */,
-				5D939A1EB1BEFBABFB75E708B18E7236 /* Frameworks */,
-				AC7388E8E7113394B81E7D98615C0DFC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				77A8343AB2BE21B223E4B320FA8444F9 /* PBXTargetDependency */,
-			);
-			name = SwiftyButton;
-			productName = SwiftyButton;
-			productReference = 21596AC2F2B6EB78FBBB320AF8B0D254 /* SwiftyButton.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		42015F79E85F0C98E4763BA44EC05CD3 /* Pods-TtroPopViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1B3F0D9C84842B69F328E90BAAEFE4B6 /* Build configuration list for PBXNativeTarget "Pods-TtroPopViewTests" */;
-			buildPhases = (
-				B2DAEC1FB9EEBDA16EA46C160C7E65D8 /* Sources */,
-				CCD3F93B3F386D37C32EFC1624916AB9 /* Frameworks */,
-				CC8B588B81AC47EF3A7A7C4CAC1277A2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4D8048D0D255926D9C23D95098441AA1 /* PBXTargetDependency */,
-				F1C7BE4A39C314BE40D4714B8EE6C975 /* PBXTargetDependency */,
-				CA6244B96080DAA23A10D95BBEA5A29B /* PBXTargetDependency */,
-				DA237AA351A2004C698618D1BE72B878 /* PBXTargetDependency */,
-				5C6E0C9DBE26F885888EDF12231DF8AB /* PBXTargetDependency */,
-			);
-			name = "Pods-TtroPopViewTests";
-			productName = "Pods-TtroPopViewTests";
-			productReference = 1B68DA71C27F49C16B8470A5C2CC118F /* Pods_TtroPopViewTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		50663D0190A93BC76CDAD840C29FE200 /* Pods-TtroPopView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 025FE3147A28242EE315A4999E543DF8 /* Build configuration list for PBXNativeTarget "Pods-TtroPopView" */;
-			buildPhases = (
-				CBFF03F2FA266D292A82E9E063CD79B6 /* Sources */,
-				48CD6200AC1918341727C36CB85E62C5 /* Frameworks */,
-				876E5984E17FAFE871C322C1D856C459 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C68803C33502AE37BF8211F4BEF2059 /* PBXTargetDependency */,
-				89254D9C08F0A75A46D9E2324EBD2E15 /* PBXTargetDependency */,
-				26561ABA9AD8887154EE2282A90AABF5 /* PBXTargetDependency */,
-				FC8F71E9892BD1B141EAB6ECADD0DE64 /* PBXTargetDependency */,
-				77306D209CDC9668436A8B37DC60610D /* PBXTargetDependency */,
-			);
-			name = "Pods-TtroPopView";
-			productName = "Pods-TtroPopView";
-			productReference = 5DB3A8669254D1CC9EFC98B5A500AD6A /* Pods_TtroPopView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60DAEEB1932B65A1B49F4B4E7B0C0048 /* PayWandBasicElements */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D866DA0B0F9751548F96DDEB8965D20 /* Build configuration list for PBXNativeTarget "PayWandBasicElements" */;
-			buildPhases = (
-				624A0C866B232AD1F51BA064EEE38AD8 /* Sources */,
-				707AC0B1B4461CE6629737959E76E959 /* Frameworks */,
-				0BE1B5EDE8487171034827BA4CB48963 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				79AD0339D04477A5D1935F0BDBACE967 /* PBXTargetDependency */,
-				1F820B878316AFE4D911138077A85C87 /* PBXTargetDependency */,
-				A042BEA8DC5021C5995EB5DF49109C70 /* PBXTargetDependency */,
-			);
-			name = PayWandBasicElements;
-			productName = PayWandBasicElements;
-			productReference = E87021A631413355A2EE23A8BF99072A /* PayWandBasicElements.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		76946471F39266E99B8704680A1D75FB /* UIColor_Hex_Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB5E209CC24F5AD89AB9E769E0EF11BE /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
-			buildPhases = (
-				BFB883DB86401115C4F30712B7666575 /* Sources */,
-				22E64FA70E9DF60DB7FCCA890CCF0879 /* Frameworks */,
-				0EA9E9AE5BBCDE4EB1F4BB86D9717E2B /* Headers */,
+				1EDD26AED80696F2082928AA197CE32A /* Sources */,
+				11293B51DE662D372FC326EB93B4D7EE /* Frameworks */,
+				F7C02D56C4FE1D5565FC97B257454EDC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -796,7 +697,67 @@
 			);
 			name = UIColor_Hex_Swift;
 			productName = UIColor_Hex_Swift;
-			productReference = 74C50416E7FCA052157B9D1978434D47 /* UIColor_Hex_Swift.framework */;
+			productReference = A39C98848C6EAB7809A094D31C7AE290 /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4947C019785B67F4F8ECD3080939D39A /* Pods-TtroPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3093E354059E205E03E86ABE4AC58C4 /* Build configuration list for PBXNativeTarget "Pods-TtroPopView" */;
+			buildPhases = (
+				FE1B171AE8470654660556D9A493E00D /* Sources */,
+				CCF6767CBD749998A95BDDBA182A267F /* Frameworks */,
+				082E42ECAB042DFA5B78E52BF15D7205 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A02B492DB03431568E62527B0CC7EF0 /* PBXTargetDependency */,
+				8E60C95CEB4C76429CA165167BDA0B0F /* PBXTargetDependency */,
+				8A7DD6B7B0C436C3612A9391A1979F52 /* PBXTargetDependency */,
+				4003F2733935FAE2CA8A621C4D8DE1A5 /* PBXTargetDependency */,
+				C3C2B9362B212C140B44D961ECCF9ED1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TtroPopView";
+			productName = "Pods-TtroPopView";
+			productReference = D4AB823CB015D26D8236713FCF2B68DD /* Pods_TtroPopView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C3F2D0B2F0D238DE6337AC1D1F3A3C9 /* PayWandBasicElements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C1FB24ECDFDF933D7F7220C020C9F1 /* Build configuration list for PBXNativeTarget "PayWandBasicElements" */;
+			buildPhases = (
+				FD7F1B40CA4C97BB78B8DE1816840566 /* Sources */,
+				FF75FEC500DE4B383ACDAE155FEDB1A0 /* Frameworks */,
+				A3AECFB7CCE21B49507AD6829A980F98 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5339DC42BBE5FA6DBE8640CA080C628F /* PBXTargetDependency */,
+				AA3208F88D6BA2DF9ECE5495A2DF0560 /* PBXTargetDependency */,
+				4FEC97FBAA6242CFFE7317F201A9DEC9 /* PBXTargetDependency */,
+				A0A257ED46332F3D8EC6ABBF64D25D2F /* PBXTargetDependency */,
+			);
+			name = PayWandBasicElements;
+			productName = PayWandBasicElements;
+			productReference = CC531FAA7DDD2E73D4026B46C4F74E5B /* PayWandBasicElements.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9ACCDA2A999ED7F9446D1D2EED0DCD15 /* PayWandModelProtocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD14783147ACD645DFCA0C125C2393A /* Build configuration list for PBXNativeTarget "PayWandModelProtocols" */;
+			buildPhases = (
+				F4C488C85B13014A14A4B05396DD485E /* Sources */,
+				C357057643A88D07F325D750892D205B /* Frameworks */,
+				81E74DE86DB04BCCC5E64070C53D51E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayWandModelProtocols;
+			productName = PayWandModelProtocols;
+			productReference = 0AD50B59E06D1FFE584A289088918C82 /* PayWandModelProtocols.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5221EA08C01208C608AC6ECB17B9F2E /* EasyPeasy */ = {
@@ -813,24 +774,46 @@
 			);
 			name = EasyPeasy;
 			productName = EasyPeasy;
-			productReference = 5D2D7E26B890CDC2BBF90672F85644C2 /* EasyPeasy.framework */;
+			productReference = 9FD0D52E374B3FAEA271D25002DB8867 /* EasyPeasy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D4253F87176115CA05D9012798046971 /* PureLayout */ = {
+		B75BF2DD99C735E0E84A0DAA028BE6F1 /* SwiftyButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E944E25CB18BDFFA85241F0E5A26793E /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildConfigurationList = 516474FC1674E217274F5B9401090AEC /* Build configuration list for PBXNativeTarget "SwiftyButton" */;
 			buildPhases = (
-				1D0EAA61C79F44C87927B181AE2EB344 /* Sources */,
-				988FD6C0DD546C6385D6558B885773F6 /* Frameworks */,
-				FB861304A039E9D83854859B951AEBE9 /* Headers */,
+				CE845464449EF8DB1AAD7EC309E2BB2E /* Sources */,
+				32984E1594B2836944EC12A3DDEA7DA6 /* Frameworks */,
+				63EE9BCD730BCB772C107257E77C2DAF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PureLayout;
-			productName = PureLayout;
-			productReference = 85B1E7BDBE03FF08248FD4C830A152EA /* PureLayout.framework */;
+			name = SwiftyButton;
+			productName = SwiftyButton;
+			productReference = 3ED77C7A38EC643CBD02C649CFF5E095 /* SwiftyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CAA5778CB1AB2623160CC864105F4DFC /* Pods-TtroPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B730866377B4AB102A115D9EF89E20 /* Build configuration list for PBXNativeTarget "Pods-TtroPopViewTests" */;
+			buildPhases = (
+				CAC0E2F3DD437BC76851BA26939C7A6C /* Sources */,
+				0D63AA30F1AA17685919B63E37FE8A9F /* Frameworks */,
+				480BC9AF9C2CE78002C8A2AFBFF76B6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B1A7BB419010E62D2AE180D507BD27D /* PBXTargetDependency */,
+				99984EC57E9D40EF58059D614655F879 /* PBXTargetDependency */,
+				F9A6A18A152200F9E65E4605BEBDF5A9 /* PBXTargetDependency */,
+				BC8DE04DF9ECFCB5E108E72936DBDFDA /* PBXTargetDependency */,
+				F95910405E29B4A17AD72DBAC418ECF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TtroPopViewTests";
+			productName = "Pods-TtroPopViewTests";
+			productReference = FAE60BB7DD88C9808B4C2224D976658D /* Pods_TtroPopViewTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -839,7 +822,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -850,63 +833,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 47B13ABE35615AF5CB4542A3A7BA5CA5 /* Products */;
+			productRefGroup = C790EF93EC2CB1C770E8CE329A7D24FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B5221EA08C01208C608AC6ECB17B9F2E /* EasyPeasy */,
-				60DAEEB1932B65A1B49F4B4E7B0C0048 /* PayWandBasicElements */,
-				50663D0190A93BC76CDAD840C29FE200 /* Pods-TtroPopView */,
-				42015F79E85F0C98E4763BA44EC05CD3 /* Pods-TtroPopViewTests */,
-				D4253F87176115CA05D9012798046971 /* PureLayout */,
-				1259A79E9C0160F09B8C80FBE4FA91D0 /* SwiftyButton */,
-				76946471F39266E99B8704680A1D75FB /* UIColor_Hex_Swift */,
+				7C3F2D0B2F0D238DE6337AC1D1F3A3C9 /* PayWandBasicElements */,
+				9ACCDA2A999ED7F9446D1D2EED0DCD15 /* PayWandModelProtocols */,
+				4947C019785B67F4F8ECD3080939D39A /* Pods-TtroPopView */,
+				CAA5778CB1AB2623160CC864105F4DFC /* Pods-TtroPopViewTests */,
+				B75BF2DD99C735E0E84A0DAA028BE6F1 /* SwiftyButton */,
+				46E29289833BF606691737E8B5C93C3E /* UIColor_Hex_Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D0EAA61C79F44C87927B181AE2EB344 /* Sources */ = {
+		1EDD26AED80696F2082928AA197CE32A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648EFEC4186BA6BA3818656A4969416A /* ALView+PureLayout.m in Sources */,
-				0DD46A9876D07B79D473C6D3FC4946D2 /* NSArray+PureLayout.m in Sources */,
-				F39915BF9B78F9A7F550FC6775A4BD4A /* NSLayoutConstraint+PureLayout.m in Sources */,
-				D83409947752D7FCDAAE8B5F7734875D /* PureLayout-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		624A0C866B232AD1F51BA064EEE38AD8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				030D441EF7561E9AEEF329E3C0434D2B /* APCustomBlurView.swift in Sources */,
-				1EFA38A9B401515DEA501D1CDC0A8EB9 /* Extensions.swift in Sources */,
-				C95C8312DBA615BA67B27518E9F5A0A5 /* PayWandBasicElements-dummy.m in Sources */,
-				E02861D212636F4FE44250C89EB0F20A /* TtroButton.swift in Sources */,
-				EE3F7936D0001C21F6125A3A0D1F33FF /* TtroDigitEntry.swift in Sources */,
-				5AC48C172934C77A2C2F6B8E9186CDB2 /* TtroLabel.swift in Sources */,
-				E8988848228638F22718E81F898BF7AE /* TtroTextField.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96DDFC36ED330E997929F26B0AC71305 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A61A54646708C458650EC61D0B0D6512 /* SwiftyButton+ResizableImage.swift in Sources */,
-				55B877E31E2CC41C2E0DC6F73D0451B3 /* SwiftyButton-dummy.m in Sources */,
-				6AFB4E22A96B1FD008C5720D8E6EAEED /* SwiftyButton.swift in Sources */,
-				8E9360C02A77DCA0D1F9D8415CF059AF /* SwiftyCustomContentButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2DAEC1FB9EEBDA16EA46C160C7E65D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4297A622953D7F70A96510FA334FA09E /* Pods-TtroPopViewTests-dummy.m in Sources */,
+				A0AB0DF9B01BC6FA1091FA7CFDEA8B1D /* UIColor_Hex_Swift-dummy.m in Sources */,
+				76956E783FDC3E124159228F5368FD50 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -938,279 +886,522 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB883DB86401115C4F30712B7666575 /* Sources */ = {
+		CAC0E2F3DD437BC76851BA26939C7A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C860DF1DA2767DC93B882EED79A30518 /* UIColor_Hex_Swift-dummy.m in Sources */,
-				1C3BF79F0332D9CD83DE6E2B37941C6D /* UIColorExtension.swift in Sources */,
+				9FDCB97D53DE1CCAA279AEFF657C1A34 /* Pods-TtroPopViewTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBFF03F2FA266D292A82E9E063CD79B6 /* Sources */ = {
+		CE845464449EF8DB1AAD7EC309E2BB2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B81AEF6DC0196FD77C2DF630635FEE4 /* Pods-TtroPopView-dummy.m in Sources */,
+				01D287CAA4993877D039EEB19AEE06C6 /* CustomPressableButton.swift in Sources */,
+				C922856111CB589BD157E5322042E29A /* FlatButton.swift in Sources */,
+				3EA23726743961624E20E5B1F3A90417 /* PressableButton.swift in Sources */,
+				FD5679AEB6E435E24911307344022968 /* SwiftyButton-dummy.m in Sources */,
+				E29BB3ADFE5DF52EC313A2D1E7085BC6 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C488C85B13014A14A4B05396DD485E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DDEE67570B7F9940345B180CBE3A19 /* CoreDataProtocols.swift in Sources */,
+				A0332537E6C6D2BE2E1E66A7F861CCDF /* PayWandModelProtocols-dummy.m in Sources */,
+				9546A6265340C25C60575144163034E2 /* ServerDataProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7F1B40CA4C97BB78B8DE1816840566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF76F5036EF9362604470BFEC4BE3187 /* APCustomBlurView.swift in Sources */,
+				872D15142605DB3BE6706D4C360D4A11 /* Extensions.swift in Sources */,
+				D646184F14487560540428F19E0BDAE1 /* PayWandBasicElements-dummy.m in Sources */,
+				F3CB29CF40148E51549785D6ACCD4163 /* TtroButton.swift in Sources */,
+				63B97B1B6398779008DA04F9A1B1C93A /* TtroDigitEntry.swift in Sources */,
+				B6663D05AA2F1715F882FD22EEEB1424 /* TtroLabel.swift in Sources */,
+				90FA9DB64B316B97C5CC3711BC61D673 /* TtroTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1B171AE8470654660556D9A493E00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8254F4B7FF3D6287E25BA22D50773089 /* Pods-TtroPopView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1C68803C33502AE37BF8211F4BEF2059 /* PBXTargetDependency */ = {
+		2B1A7BB419010E62D2AE180D507BD27D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyPeasy;
 			target = B5221EA08C01208C608AC6ECB17B9F2E /* EasyPeasy */;
-			targetProxy = 7E018F2D956D3EE4DF1DF281C4C2C450 /* PBXContainerItemProxy */;
+			targetProxy = EB07E2051C03FE54CEDCAD9F2C9EBF54 /* PBXContainerItemProxy */;
 		};
-		1F820B878316AFE4D911138077A85C87 /* PBXTargetDependency */ = {
+		4003F2733935FAE2CA8A621C4D8DE1A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyButton;
-			target = 1259A79E9C0160F09B8C80FBE4FA91D0 /* SwiftyButton */;
-			targetProxy = 8F37468D736D124ACC8CB10737DC5D9E /* PBXContainerItemProxy */;
+			target = B75BF2DD99C735E0E84A0DAA028BE6F1 /* SwiftyButton */;
+			targetProxy = 256071810AE2D3AB455AFEFCA8EE1360 /* PBXContainerItemProxy */;
 		};
-		26561ABA9AD8887154EE2282A90AABF5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = D4253F87176115CA05D9012798046971 /* PureLayout */;
-			targetProxy = 8CABA7A95AE49946FA59DE8FE40F6695 /* PBXContainerItemProxy */;
-		};
-		4D8048D0D255926D9C23D95098441AA1 /* PBXTargetDependency */ = {
+		4A02B492DB03431568E62527B0CC7EF0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyPeasy;
 			target = B5221EA08C01208C608AC6ECB17B9F2E /* EasyPeasy */;
-			targetProxy = 938A6EAF26A4448F5D83118ED9C4A197 /* PBXContainerItemProxy */;
+			targetProxy = 2E7C0B2617E0BAD43BA981820E7DB3FC /* PBXContainerItemProxy */;
 		};
-		5C6E0C9DBE26F885888EDF12231DF8AB /* PBXTargetDependency */ = {
+		4FEC97FBAA6242CFFE7317F201A9DEC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = 76946471F39266E99B8704680A1D75FB /* UIColor_Hex_Swift */;
-			targetProxy = F4D069115C3AB03DA6D0EC4BA2293623 /* PBXContainerItemProxy */;
+			name = SwiftyButton;
+			target = B75BF2DD99C735E0E84A0DAA028BE6F1 /* SwiftyButton */;
+			targetProxy = 2384BB76B9FBCED62D0541E5F0428646 /* PBXContainerItemProxy */;
 		};
-		77306D209CDC9668436A8B37DC60610D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = 76946471F39266E99B8704680A1D75FB /* UIColor_Hex_Swift */;
-			targetProxy = 7ED41EEA3E1941E0E6C78AA9531E24BB /* PBXContainerItemProxy */;
-		};
-		77A8343AB2BE21B223E4B320FA8444F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = D4253F87176115CA05D9012798046971 /* PureLayout */;
-			targetProxy = 79D05CA56F3371BF2DA41F0E991FC7B1 /* PBXContainerItemProxy */;
-		};
-		79AD0339D04477A5D1935F0BDBACE967 /* PBXTargetDependency */ = {
+		5339DC42BBE5FA6DBE8640CA080C628F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EasyPeasy;
 			target = B5221EA08C01208C608AC6ECB17B9F2E /* EasyPeasy */;
-			targetProxy = 12209939F82AFC6E53A18F9850C4D1CB /* PBXContainerItemProxy */;
+			targetProxy = 3D9137E9B59E2422A3A5C2CBDF993CE0 /* PBXContainerItemProxy */;
 		};
-		89254D9C08F0A75A46D9E2324EBD2E15 /* PBXTargetDependency */ = {
+		8A7DD6B7B0C436C3612A9391A1979F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayWandModelProtocols;
+			target = 9ACCDA2A999ED7F9446D1D2EED0DCD15 /* PayWandModelProtocols */;
+			targetProxy = DDF53170A839801E579B0CE09E8C3959 /* PBXContainerItemProxy */;
+		};
+		8E60C95CEB4C76429CA165167BDA0B0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PayWandBasicElements;
-			target = 60DAEEB1932B65A1B49F4B4E7B0C0048 /* PayWandBasicElements */;
-			targetProxy = 5C7809F1938DB568FDD0A25CF137EA96 /* PBXContainerItemProxy */;
+			target = 7C3F2D0B2F0D238DE6337AC1D1F3A3C9 /* PayWandBasicElements */;
+			targetProxy = 07288B3C21F51D9787A73CC241462CCA /* PBXContainerItemProxy */;
 		};
-		A042BEA8DC5021C5995EB5DF49109C70 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = 76946471F39266E99B8704680A1D75FB /* UIColor_Hex_Swift */;
-			targetProxy = C7906B8AD5A90A941DF42BD072DD3BF8 /* PBXContainerItemProxy */;
-		};
-		CA6244B96080DAA23A10D95BBEA5A29B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PureLayout;
-			target = D4253F87176115CA05D9012798046971 /* PureLayout */;
-			targetProxy = 0D4F2F2A247796C1DA063ABB8CB454FE /* PBXContainerItemProxy */;
-		};
-		DA237AA351A2004C698618D1BE72B878 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyButton;
-			target = 1259A79E9C0160F09B8C80FBE4FA91D0 /* SwiftyButton */;
-			targetProxy = EA204E50F2E64B4D12D87AA037DB3338 /* PBXContainerItemProxy */;
-		};
-		F1C7BE4A39C314BE40D4714B8EE6C975 /* PBXTargetDependency */ = {
+		99984EC57E9D40EF58059D614655F879 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PayWandBasicElements;
-			target = 60DAEEB1932B65A1B49F4B4E7B0C0048 /* PayWandBasicElements */;
-			targetProxy = 370B2BDB474760883F4825D3522E52B6 /* PBXContainerItemProxy */;
+			target = 7C3F2D0B2F0D238DE6337AC1D1F3A3C9 /* PayWandBasicElements */;
+			targetProxy = 2DFAB97064366BC097951CCD1126E734 /* PBXContainerItemProxy */;
 		};
-		FC8F71E9892BD1B141EAB6ECADD0DE64 /* PBXTargetDependency */ = {
+		A0A257ED46332F3D8EC6ABBF64D25D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 46E29289833BF606691737E8B5C93C3E /* UIColor_Hex_Swift */;
+			targetProxy = 1B80C38840A97CBE6995F7E4DB2A5088 /* PBXContainerItemProxy */;
+		};
+		AA3208F88D6BA2DF9ECE5495A2DF0560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayWandModelProtocols;
+			target = 9ACCDA2A999ED7F9446D1D2EED0DCD15 /* PayWandModelProtocols */;
+			targetProxy = 17E10F7A169472804471263B68D8FC50 /* PBXContainerItemProxy */;
+		};
+		BC8DE04DF9ECFCB5E108E72936DBDFDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyButton;
-			target = 1259A79E9C0160F09B8C80FBE4FA91D0 /* SwiftyButton */;
-			targetProxy = 408FDE207FB85BE36740C9F691E838BA /* PBXContainerItemProxy */;
+			target = B75BF2DD99C735E0E84A0DAA028BE6F1 /* SwiftyButton */;
+			targetProxy = AD5A9F3D3DBD2B1CB57633CBDA41FC8E /* PBXContainerItemProxy */;
+		};
+		C3C2B9362B212C140B44D961ECCF9ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 46E29289833BF606691737E8B5C93C3E /* UIColor_Hex_Swift */;
+			targetProxy = DF419882A9906B96975DDA422CB50B12 /* PBXContainerItemProxy */;
+		};
+		F95910405E29B4A17AD72DBAC418ECF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = 46E29289833BF606691737E8B5C93C3E /* UIColor_Hex_Swift */;
+			targetProxy = EBF49CC7B543F2ADAE7DFF73FEDFFA1D /* PBXContainerItemProxy */;
+		};
+		F9A6A18A152200F9E65E4605BEBDF5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayWandModelProtocols;
+			target = 9ACCDA2A999ED7F9446D1D2EED0DCD15 /* PayWandModelProtocols */;
+			targetProxy = 89E6BF98B0CF53DCB8A4891019BC061A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03E5A17600B23CFD1E10833E7982A0DF /* Release */ = {
+		07B9620DAAE833D71899C5B29EE22080 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 467FCC17D81CB4EB55C82237D57A6BC5 /* PayWandBasicElements.xcconfig */;
+			baseConfigurationReference = 513D8EEAB155072C1E55EC502DEB89DB /* SwiftyButton.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PayWandBasicElements/PayWandBasicElements-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PayWandBasicElements/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PayWandBasicElements/PayWandBasicElements.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PayWandBasicElements;
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_NAME = SwiftyButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		0B6D20822323F7A86B0AFF6AE68E0B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F3B7AFA55D87AFA43DA21A986BB98B /* Pods-TtroPopView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopView/Pods-TtroPopView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TtroPopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FDF4CFA7527524C80E19E208F4F0A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513D8EEAB155072C1E55EC502DEB89DB /* SwiftyButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
+				PRODUCT_NAME = SwiftyButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Release;
 		};
-		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+		1FE9D8A1F5F025E84616A4F97FF040CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0DAB54BDE74D9DDEBB2D171BCB774A /* Pods-TtroPopViewTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopViewTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TtroPopViewTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F52D5E0926654C2AE954909DB9A80F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D416781745B72105B3C7A9D900FE4D0 /* PayWandModelProtocols.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayWandModelProtocols/PayWandModelProtocols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayWandModelProtocols/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayWandModelProtocols/PayWandModelProtocols.modulemap";
+				PRODUCT_NAME = PayWandModelProtocols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49086764D014CC2689166BB2CABAFA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1814E688811331A130E8E4BBE6554D /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CB23BA3B4EBBE9135F1FDEFCDED9B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4865F3433137FEAE76B94851938569 /* PayWandBasicElements.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PayWandBasicElements/PayWandBasicElements-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayWandBasicElements/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayWandBasicElements/PayWandBasicElements.modulemap";
+				PRODUCT_NAME = PayWandBasicElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51128A8F8671CDD6F3AEAA31D8E8AB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A813287074321FBC64F2F2026111D1 /* Pods-TtroPopViewTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopViewTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TtroPopViewTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D37CFE4A20AC1D8A388C1B522834539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E9742E13AEAC19D75FBF317304EE36 /* EasyPeasy.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyPeasy/EasyPeasy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyPeasy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyPeasy/EasyPeasy.modulemap";
+				PRODUCT_NAME = EasyPeasy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		31CDC30198B48C5C456D39F35840D7ED /* Release */ = {
+		90F1A9A84E82F7DA0EC5F7A5323DF09B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D91104ECD21A7A3061C7C9DDC6D610B4 /* EasyPeasy.xcconfig */;
+			baseConfigurationReference = 7E4865F3433137FEAE76B94851938569 /* PayWandBasicElements.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EasyPeasy/EasyPeasy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyPeasy/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyPeasy/EasyPeasy.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EasyPeasy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47F099A0367C98D29E3462DE6E488077 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C96D33E5ABE6C02B086F2E95B5B25720 /* UIColor_Hex_Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UIColor_Hex_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		48043D7587A64E662D4BDF2A61C54E34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 467FCC17D81CB4EB55C82237D57A6BC5 /* PayWandBasicElements.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/PayWandBasicElements/PayWandBasicElements-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PayWandBasicElements/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PayWandBasicElements/PayWandBasicElements.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PayWandBasicElements;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1219,377 +1410,185 @@
 			};
 			name = Debug;
 		};
-		4FABAB080E14A255CD257C9AABEE5F0D /* Debug */ = {
+		96C7CBEA1554EA92723BAFC1DEB3BA82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A813287074321FBC64F2F2026111D1 /* Pods-TtroPopViewTests.debug.xcconfig */;
+			baseConfigurationReference = 2FAF3ABDDB3BF50A5CB4C3C075A82814 /* Pods-TtroPopView.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopViewTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopView/Pods-TtroPopView.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TtroPopViewTests;
+				PRODUCT_NAME = Pods_TtroPopView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		506AF2D1B3064CB0895B84E13D456873 /* Debug */ = {
+		981C9A984A8CBFB15CAB81F3371A6FC2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D91104ECD21A7A3061C7C9DDC6D610B4 /* EasyPeasy.xcconfig */;
+			baseConfigurationReference = B9E9742E13AEAC19D75FBF317304EE36 /* EasyPeasy.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/EasyPeasy/EasyPeasy-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/EasyPeasy/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EasyPeasy/EasyPeasy.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = EasyPeasy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6AF4316603E3C54D8C88415E7BBF3CAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBC0A5099DF83522CC488AA867496DDA /* PureLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6B18562E69B88A228891590CA062D3F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FEA300A351C70F17D83ED9E1A204C09 /* SwiftyButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A1FF4282BBFBABBDE54F548574E169B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C96D33E5ABE6C02B086F2E95B5B25720 /* UIColor_Hex_Swift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UIColor_Hex_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AF5E21903D1AC4ED0C77D22AE34A4BBE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FEA300A351C70F17D83ED9E1A204C09 /* SwiftyButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyButton/SwiftyButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyButton/SwiftyButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CC44EF5029B15C93849C06DCF5A6AC06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F3B7AFA55D87AFA43DA21A986BB98B /* Pods-TtroPopView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopView/Pods-TtroPopView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TtroPopView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CF8611F4560E41AEDAF22BC1160D6728 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D0DAB54BDE74D9DDEBB2D171BCB774A /* Pods-TtroPopViewTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopViewTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TtroPopViewTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E51B84E6254EBFFA1D253F1E37064D40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAF3ABDDB3BF50A5CB4C3C075A82814 /* Pods-TtroPopView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TtroPopView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TtroPopView/Pods-TtroPopView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TtroPopView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F11B974E67D3A4314D988D86E1962357 /* Release */ = {
+		A5D605499D0A0801E398365309F40902 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBC0A5099DF83522CC488AA867496DDA /* PureLayout.xcconfig */;
+			baseConfigurationReference = 8D416781745B72105B3C7A9D900FE4D0 /* PayWandModelProtocols.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PayWandModelProtocols/PayWandModelProtocols-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PayWandModelProtocols/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PayWandModelProtocols/PayWandModelProtocols.modulemap";
+				PRODUCT_NAME = PayWandModelProtocols;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F24809C454CEEABE9CCAE9EB106527A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1814E688811331A130E8E4BBE6554D /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PureLayout;
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_NAME = UIColor_Hex_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1598,47 +1597,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0010BDB5A9EE9086CA2AB7377D5C9BBF /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AF5E21903D1AC4ED0C77D22AE34A4BBE /* Debug */,
-				6B18562E69B88A228891590CA062D3F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		025FE3147A28242EE315A4999E543DF8 /* Build configuration list for PBXNativeTarget "Pods-TtroPopView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC44EF5029B15C93849C06DCF5A6AC06 /* Debug */,
-				E51B84E6254EBFFA1D253F1E37064D40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		09077C94E191775E258073FA5A3C405C /* Build configuration list for PBXNativeTarget "EasyPeasy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				506AF2D1B3064CB0895B84E13D456873 /* Debug */,
-				31CDC30198B48C5C456D39F35840D7ED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B3F0D9C84842B69F328E90BAAEFE4B6 /* Build configuration list for PBXNativeTarget "Pods-TtroPopViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4FABAB080E14A255CD257C9AABEE5F0D /* Debug */,
-				CF8611F4560E41AEDAF22BC1160D6728 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D866DA0B0F9751548F96DDEB8965D20 /* Build configuration list for PBXNativeTarget "PayWandBasicElements" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48043D7587A64E662D4BDF2A61C54E34 /* Debug */,
-				03E5A17600B23CFD1E10833E7982A0DF /* Release */,
+				5D37CFE4A20AC1D8A388C1B522834539 /* Debug */,
+				981C9A984A8CBFB15CAB81F3371A6FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1646,26 +1609,62 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
-				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB5E209CC24F5AD89AB9E769E0EF11BE /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+		2F17F75E4650281914CED3BE073E5523 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47F099A0367C98D29E3462DE6E488077 /* Debug */,
-				A1FF4282BBFBABBDE54F548574E169B4 /* Release */,
+				49086764D014CC2689166BB2CABAFA5C /* Debug */,
+				F24809C454CEEABE9CCAE9EB106527A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E944E25CB18BDFFA85241F0E5A26793E /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+		516474FC1674E217274F5B9401090AEC /* Build configuration list for PBXNativeTarget "SwiftyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AF4316603E3C54D8C88415E7BBF3CAB /* Debug */,
-				F11B974E67D3A4314D988D86E1962357 /* Release */,
+				07B9620DAAE833D71899C5B29EE22080 /* Debug */,
+				1FDF4CFA7527524C80E19E208F4F0A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C1FB24ECDFDF933D7F7220C020C9F1 /* Build configuration list for PBXNativeTarget "PayWandBasicElements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F1A9A84E82F7DA0EC5F7A5323DF09B /* Debug */,
+				4CB23BA3B4EBBE9135F1FDEFCDED9B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B730866377B4AB102A115D9EF89E20 /* Build configuration list for PBXNativeTarget "Pods-TtroPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51128A8F8671CDD6F3AEAA31D8E8AB5A /* Debug */,
+				1FE9D8A1F5F025E84616A4F97FF040CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3093E354059E205E03E86ABE4AC58C4 /* Build configuration list for PBXNativeTarget "Pods-TtroPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B6D20822323F7A86B0AFF6AE68E0B96 /* Debug */,
+				96C7CBEA1554EA92723BAFC1DEB3BA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD14783147ACD645DFCA0C125C2393A /* Build configuration list for PBXNativeTarget "PayWandModelProtocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D605499D0A0801E398365309F40902 /* Debug */,
+				3F52D5E0926654C2AE954909DB9A80F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
