@@ -45,33 +45,33 @@ public class TtroPopView: UIView {
         
         bottomView = BottomView(numberOfButtons: nil, delegate: delegate)
         self.addSubview(bottomView)
-        bottomView <- [
+        bottomView.easy.layout([
             Height(50),
             Bottom(),
             Width().like(self),
             CenterX()
-        ]
+        ])
         
         titleLabel = TtroLabel(font: UIFont.TtroPayWandFonts.regular2.font, color: UIColor.TtroColors.lightBlue.color)
         titleLabel.text = title
         titleLabel.baselineAdjustment = .alignCenters
         addSubview(titleLabel)
-        titleLabel <- [
+        titleLabel.easy.layout([
             Height(80),
             CenterX(),
             Top()
-        ]
+        ])
         
         scrollView = UIScrollView()
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(scrollView)
 //        scrollView <- Edges()
-        scrollView <- [
+        scrollView.easy.layout([
             Width(*0.8).like(self),
             Top().to(titleLabel),
             Bottom().to(bottomView, .top),
             CenterX()
-        ]
+        ])
         
         stackView = UIStackView()
         stackView.alignment = .fill
@@ -79,10 +79,10 @@ public class TtroPopView: UIView {
         stackView.distribution = .fill
         stackView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.addSubview(stackView)
-        stackView <- Edges()
-        stackView <- [
+        stackView.easy.layout(Edges())
+        stackView.easy.layout([
             Width().like(scrollView)
-        ]
+        ])
         
         layer.cornerRadius = 10
     }

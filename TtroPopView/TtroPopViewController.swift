@@ -26,17 +26,17 @@ open class TtroPopViewController: UIViewController {
 
         let blurView = APCustomBlurView(withRadius: 2)
         view.addSubview(blurView)
-        blurView <- Edges()
+        blurView.easy.layout(Edges())
         
         let title = delegate.popViewController?(popViewTitle: self) ?? "Currency Convertor"
         ttroPopView = TtroPopView(title: title, delegate : delegate)
         view.addSubview(ttroPopView)
-        ttroPopView <- [
+        ttroPopView.easy.layout([
             Center(),
-            Height(>=250).with(Priority.highPriority),
-            Height(<=450).with(Priority.highPriority),
+            Height(>=250),
+            Height(<=450),
             Width(*0.8).like(view)
-        ]
+        ])
         popViewHeightConstraint = ttroPopView.heightAnchor.constraint(equalToConstant: 300)
         popViewHeightConstraint.priority = 500
         popViewHeightConstraint.isActive = true

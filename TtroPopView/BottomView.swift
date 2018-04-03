@@ -49,7 +49,7 @@ public class BottomView: UIView {
         
         let stackedView = UIStackView()
         self.addSubview(stackedView)
-        stackedView <- Edges()
+        stackedView.easy.layout(Edges())
         
         stackedView.alignment = .center
         stackedView.axis = .horizontal
@@ -77,34 +77,34 @@ public class BottomView: UIView {
         
         let horizontal = Separator(horizontal: true, superview: self, coeff: 0.95)
         horizontal.backgroundColor = UIColor.gray
-        horizontal <- Bottom(-5).to(self, .top).with(Priority.lowPriority)
+        horizontal.easy.layout(Bottom(-5).to(self, .top).with(Priority.low))
         
         stackedView.addArrangedSubview(firstButton)
         firstButton.setTitle(buttonTitles[0], for: .normal)
         if (n > 1){
             let firstVerSeparator = Separator(horizontal: false, superview: nil, coeff: 0.8)
             stackedView.addArrangedSubview(firstVerSeparator)
-            firstVerSeparator <- [
+            firstVerSeparator.easy.layout([
                 Height(*0.8).like(stackedView)
-            ]
+            ])
             firstVerSeparator.backgroundColor = UIColor.gray
             stackedView.addArrangedSubview(firstVerSeparator)
             stackedView.addArrangedSubview(secondButton)
             secondButton.setTitle(buttonTitles[1], for: .normal)
-            secondButton <- Width().like(firstButton)
-            horizontal <- Bottom().to(firstVerSeparator, .top)
+            secondButton.easy.layout(Width().like(firstButton))
+            horizontal.easy.layout(Bottom().to(firstVerSeparator, .top))
         }
         if (n > 2){
             let secondVerSeparator = Separator(horizontal: false, superview: nil, coeff: 0.8)
             stackedView.addArrangedSubview(secondVerSeparator)
-            secondVerSeparator <- [
+            secondVerSeparator.easy.layout([
                 Height(*0.8).like(stackedView)
-            ]
+            ])
             secondVerSeparator.backgroundColor = UIColor.gray
             stackedView.addArrangedSubview(secondVerSeparator)
             stackedView.addArrangedSubview(thirdButton)
             thirdButton.setTitle(buttonTitles[2], for: .normal)
-            thirdButton <- Width().like(secondButton)
+            thirdButton.easy.layout(Width().like(secondButton))
         }
         if (n > 3 || n < 1){
             fatalError("Bottom view can be initiated with n between 1 to 3")
@@ -133,22 +133,22 @@ class Separator: UIView {
         alpha = 0.3
         self.backgroundColor = UIColor.TtroColors.white.color
         if (horizontal){
-            self <- Height(1)
+            self.easy.layout(Height(1))
         } else {
-            self <- Width(1)
+            self.easy.layout(Width(1))
         }
         if (superview != nil){
             superview!.addSubview(self)
             if (horizontal){
-                self <- [
+                self.easy.layout([
                     CenterX(),
                     Width(*coeff).like(superview!),
-                ]
+                ])
             } else {
-                self <- [
+                self.easy.layout([
                     Height(*coeff).like(superview!),
                     CenterY()
-                ]
+                ])
             }
         }
     }
