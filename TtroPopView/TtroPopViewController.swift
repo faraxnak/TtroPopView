@@ -38,7 +38,7 @@ open class TtroPopViewController: UIViewController {
             Width(*0.8).like(view)
         ])
         popViewHeightConstraint = ttroPopView.heightAnchor.constraint(equalToConstant: 300)
-        popViewHeightConstraint.priority = 500
+        popViewHeightConstraint.priority = UILayoutPriority(rawValue: 500)
         popViewHeightConstraint.isActive = true
         ttroPopView.backgroundColor = UIColor.white
         ttroPopView.delegate = delegate
