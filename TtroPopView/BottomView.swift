@@ -111,15 +111,15 @@ public class BottomView: UIView {
         }
     }
     
-    func onFirstButton() {
+    @objc func onFirstButton() {
         delegate.onFirstButton?()
     }
     
-    func onSecondButton() {
+    @objc func onSecondButton() {
         delegate.onSecondButton?()
     }
     
-    func onThirdButton() {
+    @objc func onThirdButton() {
         delegate.onThirdButton?()
     }
 }

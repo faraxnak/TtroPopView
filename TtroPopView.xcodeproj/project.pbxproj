@@ -147,7 +147,6 @@
 				75020F461E476F480096B5A4 /* Frameworks */,
 				75020F471E476F480096B5A4 /* Headers */,
 				75020F481E476F480096B5A4 /* Resources */,
-				08A517508A8897C5C6876A3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,8 +165,7 @@
 				75020F4F1E476F480096B5A4 /* Sources */,
 				75020F501E476F480096B5A4 /* Frameworks */,
 				75020F511E476F480096B5A4 /* Resources */,
-				A62FBFCA81FA3E31FC3F4CAE /* [CP] Embed Pods Frameworks */,
-				AEA870C149F1E7A37760CB38 /* [CP] Copy Pods Resources */,
+				DDDFB0662222551784891E23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,7 +190,7 @@
 					75020F491E476F480096B5A4 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = F53V3ZJV96;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 					75020F521E476F480096B5A4 = {
@@ -238,21 +236,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08A517508A8897C5C6876A3A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopView/Pods-TtroPopView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1C49A84FF808504C7CBED0F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,7 +254,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A62FBFCA81FA3E31FC3F4CAE /* [CP] Embed Pods Frameworks */ = {
+		DDDFB0662222551784891E23 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,21 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEA870C149F1E7A37760CB38 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopViewTests/Pods-TtroPopViewTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0908833FC785A3A695ED624 /* [CP] Check Pods Manifest.lock */ = {
@@ -479,7 +447,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -501,7 +470,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -552,6 +522,7 @@
 				75020F601E476F480096B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75020F611E476F480096B5A4 /* Build configuration list for PBXNativeTarget "TtroPopViewTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +531,7 @@
 				75020F631E476F480096B5A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
