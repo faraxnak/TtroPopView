@@ -12,14 +12,27 @@ import PayWandBasicElements
 
 @objc public protocol TtroPopViewControllerDelegate : TtroPopViewDelegate {
     @objc optional func popViewController(popViewTitle popViewController: TtroPopViewController) -> String
+    
+    @objc optional func popViewController(viewDidApper animated: Bool)
 }
 
+//public enum TtroPopMode {
+//    case light, dark
+//}
+
 open class TtroPopViewController: UIViewController {
+    
+//    open var mode : TtroPopMode = .light
 
     var ttroPopView : TtroPopView!
     var popViewHeightConstraint : NSLayoutConstraint!
     
     public weak var delegate : TtroPopViewControllerDelegate!
+    
+    override open func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        delegate.popViewController?(viewDidApper: animated)
+    }
     
     override open func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +40,10 @@ open class TtroPopViewController: UIViewController {
         let blurView = APCustomBlurView(withRadius: 2)
         view.addSubview(blurView)
         blurView.easy.layout(Edges())
+        
+//        if mode == .dark {
+//            blurView.backgroundColor = UIColor.TtroColors.darkBlue.color.withAlphaComponent(0.4)
+//        }
         
         let title = delegate.popViewController?(popViewTitle: self) ?? "Currency Convertor"
         ttroPopView = TtroPopView(title: title, delegate : delegate)
